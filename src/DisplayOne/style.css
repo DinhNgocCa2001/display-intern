@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+}
+#header{
+width: 100%;
+height: 800px;
+display:flex;
+align-items: center;
+background-color:#fbfbfd;
+}
+#content-header{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:12rem;
+}
+#image-header{
+    object-fit: cover;
+}
+#text-header{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.im{
+    color:#7b64d3;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 600;
+}
+#text-header h1{
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 85px;
+}
+.type-apps{
+    margin-top: 25px;
+    font-size: 40px;
+    margin-bottom: 45px;
+    font-weight: 600;
+}
+
+img {
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+    object-position: 0 100%;
+  }
+  #download-cv-btn{
+        cursor: pointer;
+        width: 180px;
+        height: 75px;
+        background-color: #6245c5;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        font-size: 18px;
+        font-weight: 600;
+  }
+  #download-cv-btn:hover{
+    background-color: #c3bbe5;
+  }
+  #play-video-btn{
+    cursor: pointer;
+    margin-left: 60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #6142bb;
+    background-color: white;
+    margin-right: 23px;
+    outline: 22px solid #c3bbe5;
+
+   
+  }
+  .icon-play-header{
+    font-size: 30px;
+    color:  #6142bb;
+  }
+  .icon-play-header:hover{
+    color: #c3bbe5;
+  }
