@@ -6,6 +6,7 @@
             display: table;
 
             .column {
+
                 float: left;
                 width: 32%;
                 padding: 5px;
@@ -13,4 +14,66 @@
             }
         }
     }
+
+    .testimonial {
+        h1 {
+            text-align: center;
+        }
+
+        padding-top: 10%;
+
+        .flickity-viewport {
+            height: auto;
+        }
+
+        .carousel {
+            height: auto;
+            width: auto;
+
+            .carousel-cell {
+                margin: 30px;
+                width: 100%;
+
+                img {
+                    margin: 0 47%;
+                    margin-bottom: 2%;
+                    border-radius: 100%;
+                }
+
+                p {
+                    width: 10000%;
+                    height: 50px;
+                }
+
+                .line {
+                    width: 50%;
+                    height: 1px;
+                    background-color: black;
+                    margin: 0 auto;
+                }
+
+                .name {
+                    text-align: center;
+                    font-weight: 900;
+                }
+                .prof {
+                    text-align: center;
+                    padding-bottom: 50px;
+                    font-weight: 200;
+                }
+            }
+        }
+
+    }
+
+    .contact {}
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+    }
+
 }
