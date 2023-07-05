@@ -1,0 +1,16 @@
+.page-3 {
+    margin: 5%;
+
+    .team-info {
+        .row {
+            display: table;
+
+            .column {
+                float: left;
+                width: 32%;
+                padding: 5px;
+
+            }
+        }
+    }
+}
