@@ -1,14 +1,54 @@
 .page-3 {
+    * {
+        box-sizing: border-box;
+    }
+
     margin: 5%;
 
+    // PC Web
     .team-info {
-        .row {
+        h1 {
+            padding-bottom: 5%;
+        }
+
+        .row-title {
+            display: flex;
+            padding-bottom: 5%;
+
+            // 
+            .column-title {
+                position: absolute;
+                top: 5%;
+                flex-basis: 47%;
+                font-size: 20px;
+            }
+
+            .column-button {
+                flex-basis: 47%;
+
+                button {
+                    position: absolute;
+                    top: 4%;
+                    right: 10%;
+                    // 
+                    margin-top: 3%;
+                    height: 50px;
+                    border-radius: 15px;
+                    background-color: #5e54e6;
+                    color: white;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .row-img {
             display: table;
+            margin-top: 5%;
 
             .column {
 
                 float: left;
-                width: 32%;
+                width: 31%;
                 padding: 5px;
 
             }
@@ -40,9 +80,11 @@
                     border-radius: 100%;
                 }
 
-                p {
-                    width: 10000%;
-                    height: 50px;
+                .center-text {
+                    text-align: center;
+                    display: block;
+                    margin: 0 auto;
+                    padding-bottom: 2%;
                 }
 
                 .line {
@@ -56,6 +98,7 @@
                     text-align: center;
                     font-weight: 900;
                 }
+
                 .prof {
                     text-align: center;
                     padding-bottom: 50px;
@@ -63,17 +106,112 @@
                 }
             }
         }
-
     }
 
-    .contact {}
+    // Mobile Web
+    @media only screen and (max-width: 768px) {
 
-    * {
-        box-sizing: border-box;
+        .team-info {
+            h1 {
+                padding-bottom: 5%;
+            }
+
+            .row-title {
+                display: flex;
+                padding-bottom: 5%;
+
+                // 
+                .column-title {
+                    position: absolute;
+                    top: 5%;
+                    flex-basis: 47%;
+                    font-size: 15px;
+                }
+
+                .column-button {
+                    flex-basis: 47%;
+
+                    button {
+                        position: absolute;
+                        top: 4%;
+                        right: 10%;
+                        // 
+                        margin-top: 5%;
+                        height: 5%;
+                        width: 20%;
+                        border-radius: 15px;
+                        background-color: #5e54e6;
+                        color: white;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .row-img {
+                display: table;
+                margin-top: 25%;
+
+                .column {
+
+                    float: left;
+                    width: 33%;
+                    padding: 5px;
+
+                }
+            }
+        }
+
+        .testimonial {
+            h1 {
+                text-align: center;
+            }
+
+            padding-top: 10%;
+
+            .flickity-viewport {
+                height: auto;
+            }
+
+            .carousel {
+                height: auto;
+                width: auto;
+
+                .carousel-cell {
+                    margin: 30px;
+                    width: 100%;
+
+                    img {
+                        margin: 0 35%;
+                        margin-bottom: 2%;
+                        border-radius: 100%;
+                    }
+
+                    .center-text {
+                        text-align: center;
+                        display: block;
+                        margin: 0 auto;
+                        padding: 2%;
+                    }
+
+                    .line {
+                        width: 50%;
+                        height: 1px;
+                        background-color: black;
+                        margin: 0 auto;
+                    }
+
+                    .name {
+                        text-align: center;
+                        font-weight: 900;
+                    }
+
+                    .prof {
+                        text-align: center;
+                        padding-bottom: 50px;
+                        font-weight: 200;
+                    }
+                }
+            }
+        }
     }
-
-    body {
-        font-family: sans-serif;
-    }
-
 }
