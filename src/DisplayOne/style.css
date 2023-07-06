@@ -1,0 +1,79 @@
+/*page wed 4*/
+.wed-4{
+    background-color: #fbfbfd;
+}
+.part-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hire-me-btn{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px; 
+}
+td{
+    background-color: white;
+    border: none;
+}
+.data-1{
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+.data-2{
+    margin: 20px;
+}
+/*page wed 8*/
+.p-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.btn{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: none;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+.edit{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 30px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+i{
+    color: white;
+}
+input{
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+.input-1{
+    width: 97%;
+    height: 50px;
+}
+.input-2{
+    height: 100px;
+    width: 97%;
+}
