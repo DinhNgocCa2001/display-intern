@@ -27,6 +27,17 @@ td{
 .data-2{
     margin: 20px;
 }
+.img{
+    width: 20%;
+    height: 100px;
+   
+}
+.fa-2xl{
+    position:relative;
+    right: -30px;
+    bottom: 60px;
+    
+}
 /*page wed 8*/
 .p-1{
     display: flex;
