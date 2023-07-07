@@ -94,3 +94,6 @@ button:active{
             0 0 10px 10px blueviolet;
     transform: translateY(5px);
 }
+button{
+    cursor: pointer;
+}
