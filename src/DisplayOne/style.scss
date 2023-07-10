@@ -3,7 +3,18 @@
         box-sizing: border-box;
     }
 
+    font-family: Verdana,
+    sans-serif;
     margin: 5%;
+
+    h1,
+    p {
+        font-size: 5vmin;
+    }
+
+    button {
+        font-size: 2vmin;
+    }
 
     // PC Web
     .team-info {
