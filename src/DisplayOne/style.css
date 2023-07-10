@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 2%;
 }
 .hire-me-btn{
     width: 100px;
@@ -42,7 +43,8 @@ td{
 .p-1{
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    margin: 2%;
 }
 .btn{
     color: white;
@@ -76,17 +78,23 @@ i{
 }
 input{
     border-radius: 5px;
+    border: 2px solid;
     margin-top: 20px;
-    margin-right: 2%;
-    margin-bottom: 20px;
-}
-.input-1{
-    width: 97%;
     height: 50px;
+    width: 100%;
 }
-.input-2{
+.input-message{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+textarea{
     height: 100px;
-    width: 97%;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 button:active{
     box-shadow: 
@@ -96,4 +104,8 @@ button:active{
 }
 button{
     cursor: pointer;
+}
+.head-page{
+    font-size:5vmin;
+    font-weight: 600;
 }
