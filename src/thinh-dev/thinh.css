@@ -1,0 +1,29 @@
+.my-projects{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.menu{
+    float: right;
+    display: flex;
+    font-size: 20px;
+}
+p{
+    margin-right: 20px;
+    border-color: red;
+}
+p:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; /* Khoảng cách giữa các ảnh */
+}
+.image img{
+    border-radius: 2%;
+    width: 100%;
+}
+div{
+    margin: 50px;
+}
