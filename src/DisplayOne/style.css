@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  /* padding-left: 20vmin;
+  padding-right: 20vmin; */
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+  margin-top: 0;
+  align-items: center;
+  background-color: #fbfbfb;
+}
+
+
+.im {
+  color: #7b64d3;
+  font-size: 5vmin;
+  margin: 0;
+  font-weight: 600;
+}
+
+.text-header {
+  width: 100%;
+  height: 100%;
+}
+
+.text-header h1 {
+  margin-bottom: 0;
+  font-size: 8vmin;
+}
+
+.type-apps {
+  margin-top: 2vmin;
+  font-size: 6vmin;
+  margin-bottom: 4vmin;
+  font-weight: 600;
+}
+
+.image-header {
+  object-fit: cover;
+}
+
+#download-cv-btn {
+  cursor: pointer;
+  width: 22vmin;
+  height: 10vmin;
+  background-color: #6245c5;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 2.8vmin;
+  font-weight: 600;
+}
+
+#download-cv-btn:hover {
+  background-color: #7b64d3;
+}
+
+#download-cv-btn:active {
+  position: relative;
+  top: 5px;
+}
+
+.time-work {
+  margin-top: 10vmin;
+
+}
+
+.about-work {
+  margin-top: 10vmin;
+}
+
+.year-exp {
+  font-size: 18vmin;
+  margin: 0;
+  margin-top: -6vmin;
+  font-weight: 700;
+  padding: 0;
+}
+
+.years-label {
+  padding: 0;
+  margin-top: -4vmin;
+  letter-spacing: 5vmin;
+  font-size: 3vmin;
+}
+
+.job-exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.06vmin;
+}
+
+.content-time-overview {
+  padding: 0;
+  font-size: 2.4vmin;
+  color: gray;
+  text-align: justify;
+}
+
+.ul-benefit {
+  list-style: none;
+  padding-top: 4vmin;
+  padding-left: 0;
+  margin: 0;
+  font-size: 2.6vmin;
+  color: gray;
+
+}
+
+.ul-benefit li {
+  margin-bottom: 3vmin;
+}
+
+.ul-benefit li span:first-child {
+  margin-right: 3vmin;
+}
+
+.fa-circle-check {
+  color: #6245c5;
+}
+
+
+.img-overview {
+  border-radius: 20px;
+}
+
+
+
+#readmore-btn-overview {
+  margin-top: 2vmin;
+  width: 20vmin;
+  height: 9vmin;
+  border-radius: 15px;
+  background-color: #6245c5;
+  color: white;
+  font-size: 2.8vmin;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#readmore-btn-overview:hover {
+  background-color: #7b64d3;
+}
+
+#readmore-btn-overview:active {
+  position: relative;
+  top: 5px;
+}
+
+.text-about {
+  padding-top: 5vmin;
+
+}
+
+.vertical-line {
+  margin: 0 2.5vmin;
+  border-left: 2px solid gray;
+  font-size: 3vmin;
+}
+
+.title-text-about {
+  font-size: 3vmin;
+  font-weight: 500;
+}
+
+.text-about-content {
+  margin-bottom: 2.8vmin;
+}
+
+.text-about-content p {
+  color: gray;
+  font-size: 2.3vmin;
+
+}
+
+.number-text-about {
+  font-size: 4vmin;
+  color: #6142bb;
+  font-weight: 600;
+}
+
+
+.skill-contain {
+  margin-top: 8vmin;
+}
+
+.skill-contain p {
+  margin-top: 4vmin;
+  color: gray;
+  font-size: 2.5vmin;
+  text-align: justify;
+}
+
+.skill-contain h1 {
+  font-size: 6vmin;
+  margin: 0;
+}
+
+.my-skills-contain h2 {
+  font-size: 4.5vmin;
+  font-weight: 500;
+}
+
+.exp-and-edu-contain {
+  margin-top: 8vmin;
+}
+
+.my-skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden;
+  table-layout: fixed;
+
+}
+
+.my-skills-table td {
+  border: 4vmin solid rgb(255, 255, 255);
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.4vmin;
+}
+
+.my-progress-bar {
+  margin-top: 1.5vmin;
+  background-color: rgb(208, 208, 208);
+  border-radius: 30px;
+}
+
+.color-bar1 {
+  width: 95%;
+  background-color: #6142bb;
+  height: 0.8vmin;
+  border-radius: 30px;
+}
+
+.color-bar2 {
+  width: 90%;
+  background-color: red;
+  height: 0.8vmin;
+  border-radius: 30px;
+}
+
+.color-bar3 {
+  width: 85%;
+  background-color: yellow;
+  height: 0.8vmin;
+  border-radius: 30px;
+}
+
+.color-bar4 {
+  width: 95%;
+  background-color: black;
+  height: 0.8vmin;
+  border-radius: 30px;
+}
+
+.exp-and-edu-header {
+  height: 8vmin;
+  border: 0.2vmin solid #6142bb;
+  border-radius: 10px;
+}
+
+.exp-header {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6142bb;
+  border-radius: 10px;
+  color: white;
+  font-size: 3vmin;
+  cursor: pointer;
+}
+
+.edu-header {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vmin;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #6142bb;
+  color: white;
+}
+
+
+.exp-table {
+  margin-top: 4vmin;
+  width: 100%;
+  table-layout: fixed;
+}
+.edu-table{
+  margin-top: 4vmin;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.job-des {
+  font-size: 3.2vmin;
+  font-weight: 500;
+}
+
+.time-des {
+  font-size: 2.5vmin;
+  color: #6142bb;
+}
+
+.line-exp-des {
+  margin: 0;
+  margin-top: -1.7vmin;
+  width: 15%;
+}
+
+.company-des {
+  font-size: 2.5vmin;
+}
+
+.change-background {
+  background-color: white;
+  color: black;
+}
