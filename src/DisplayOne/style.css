@@ -212,7 +212,7 @@ body {
 }
 
 .page-1 .img-overview {
-  border-radius: 20px;
+  border-radius: 2%;
 }
 
 .page-1 .img-overview-contain {
@@ -465,6 +465,9 @@ body {
   width: 33.33%;
   padding: 5px;
 }
+.page-3 .team-info .row-img .column img {
+  border-radius: 2%;
+}
 .page-3 .testimonial {
   padding-top: 10%;
 }
@@ -508,7 +511,7 @@ body {
   padding-bottom: 50px;
   font-weight: 200;
 }
-.page-3 .flickity-page-dots{
+.page-3 .flickity-page-dots {
   bottom: 50px;
 }
 .page-3 .work-together .p-1 {
@@ -583,12 +586,15 @@ body {
 .page-2 .wed-4 {
   background-color: #fbfbfd;
 }
-
+.page-2 .wed-4 .my-service-table {
+  margin: 0 5%;
+}
 .page-2 .part-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 5%;
+  margin: 2% 5%;
+  padding-top: 4%;
 }
 
 .page-2 .td {
@@ -648,9 +654,9 @@ body {
 }
 
 .page-2 .p {
-    margin-right: 20px;
-    border-color: red;
-    cursor: pointer;
+  margin-right: 20px;
+  border-color: red;
+  cursor: pointer;
 }
 
 .page-2 .p:hover {
