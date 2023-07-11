@@ -630,6 +630,7 @@ body {
 }
 .page-2 .data-2 p {
   text-align: justify;
+  color: gray;
 }
 .page-2 .img {
   width: 20%;
