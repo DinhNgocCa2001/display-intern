@@ -59,27 +59,80 @@ background-color:#fbfbfd;
   #download-cv-btn:hover{
     background-color: #7b64d3;
   }
-  #play-video-btn{
+  #download-cv-btn:active {
+    position: relative;
+    top: 5px;
+  }
+
+  .play-btn {
     cursor: pointer;
-    margin-left: 60px;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    border: 2px solid #6142bb;
-    background-color: white;
-    margin-right: 23px;
-    outline: 22px solid #c3bbe5;
-
-   
+    width: 10vmin;
+    height: 10vmin;
+    background-color: #6245c5;
+    border: none;
+    color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    font-size: 4vmin;
+    margin-left: 30px;
   }
-  .icon-play-header{
-    font-size: 30px;
-    color:  #6142bb;
+  
+  
+  .play-btn::after {
+    position: absolute;
+    content: '';
+    bottom: -1vmin;
+    top: -1vmin;
+    left: -1vmin;
+    right: -1vmin;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.5vmin solid #6245c5;
+    margin: 0;
+    opacity: 1;
+    transform-origin: center;
+    animation: anim 1.2s linear infinite;
   }
-  .icon-play-header:hover{
-    color: #c3bbe5;
+  
+  .play-btn::before {
+    position: absolute;
+    content: '';
+    bottom: -1vmin;
+    top: -1vmin;
+    left: -1vmin;
+    right: -1vmin;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.5vmin solid #6245c5;
+    margin: 0;
+    opacity: 0.8;
+    transform-origin: center;
+    animation: anim 1.2s linear 0.8s infinite;
   }
-
+  
+  .play-btn:active {
+    position: relative;
+    top: 5px;
+  }
+  
+  @keyframes anim {
+    from {
+      margin: 0;
+      opacity: 1;
+    }
+  
+    to {
+      margin: -2vmin;
+      opacity: 0;
+    }
+  }
+  
+  .play-text {
+    font-size: 2.6vmin;
+    color: #000000;
+    font-weight: 600;
+    margin-left: 2vmin;
+  }
 
   .content-overview{
     margin-top: 100px;
@@ -167,7 +220,10 @@ background-color:#fbfbfd;
   #readmore-btn-overview:hover{
     background-color:#7b64d3;
   }
-
+  #readmore-btn-overview:active{
+      position: relative;
+      top: 5px;
+  }
   .text-about{
     width: 100%;
     padding-top:40px;
@@ -273,7 +329,8 @@ background-color:#fbfbfd;
   border: 2px solid #6142bb;
   border-radius: 10px;
  }
- .exp-header{
+
+.exp-header {
   width: 50%;
   display: flex;
   align-items: center;
@@ -281,26 +338,34 @@ background-color:#fbfbfd;
   background-color: #6142bb;
   border-radius: 10px;
   color: white;
-  font-size: 18px;
+  font-size: 3vmin;
   cursor: pointer;
- }
- .edu-header{
+}
+
+ .edu-header {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 3vmin;
   border-radius: 10px;
   cursor: pointer;
- }
- .edu-header:hover{
-  background-color: #dcd8ef;
- }
- .exp-table{
-  margin-top: 20px;
+  background-color: #6142bb;
+  color: white;
+}
+
+
+ .exp-table {
+  margin-top: 2vmin;
   width: 100%;
   table-layout: fixed;
- }
+}
+
+ .edu-table {
+  margin-top: 2vmin;
+  width: 100%;
+  table-layout: fixed;
+}
  .job-des{
   font-size: 22px;
   font-weight: 500;
@@ -311,3 +376,7 @@ background-color:#fbfbfd;
  .line-exp-des{
   margin:0; margin-top: -15px; width:15%;
  }
+ .change-background {
+  background-color: white;
+  color: black;
+}

@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b25957ae4f.js" crossorigin="anonymous"></script>
+    <script src ="main.js"></script>
 </head>
 
 <body>
@@ -17,8 +18,8 @@
                 <h1>Kate Winslet</h1>
                 <p class="type-apps">Apps D</p>
                 <button id="download-cv-btn">Download CV</button>
-                <button id="play-video-btn"><i class="fa-solid fa-play icon-play-header"></i></button> <span
-                    style="font-size: 20px; font-weight:600">Play Video</span>
+                <button class="play-btn btn"><i class="fas fa-play"></i></button>
+              <span class="play-text">Play Video</span>
             </div>
             <div class="image-header-container">
                 <img src="img/profile.png" alt="image-header" width="700px" height="800px" class="image-header">
@@ -144,10 +145,10 @@
             <div class="exp-and-edu-contain">
                 <div class="exp-and-edu-header">
                     <div class="exp-header">
-                        <p>Experience</p>
+                        Experience
                     </div>
-                    <div class="edu-header">
-                        <p>Education</p>
+                    <div class="edu-header change-background">
+                        Education
                     </div>
                 </div>
                 <table class ="exp-table">
@@ -188,6 +189,44 @@
                         </td>
                     </tr>
                 </table>
+                <table class="edu-table" style="display: none">
+                    <tr>
+                      <td>
+                        <div class="exp-des1">
+                          <p class="job-des">Hanoi University</p>
+                          <hr class="line-exp-des" />
+                          <p class="time-des">2020 - 2024</p>
+                          <p class="company-des">Sofware Engineer</p>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="exp-des1">
+                          <p class="job-des">Training Time</p>
+                          <hr class="line-exp-des" />
+                          <p class="time-des">2024 - 2025</p>
+                          <p class="company-des">Frontend Developer</p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="exp-des1">
+                          <p class="job-des">Training Time 2</p>
+                          <hr class="line-exp-des" />
+                          <p class="time-des">2024 - 2025</p>
+                          <p class="company-des">Backend Developer</p>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="exp-des1">
+                          <p class="job-des">Training Time 3</p>
+                          <hr class="line-exp-des" />
+                          <p class="time-des">2024 - 2025</p>
+                          <p class="company-des">Fullstack Web</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
             </div>
 
         </div>
