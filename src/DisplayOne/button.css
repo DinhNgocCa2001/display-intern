@@ -1,4 +1,4 @@
-.play-btn {
+.page-1 .play-btn {
     cursor: pointer;
     width: 10vmin;
     height: 10vmin;
@@ -11,7 +11,7 @@
 }
 
 
-.play-btn::after {
+.page-1 .play-btn::after {
     position: absolute;
     content: '';
     bottom: -1vmin;
@@ -27,7 +27,7 @@
     animation: anim 1.2s linear infinite;
 }
 
-.play-btn::before {
+.page-1 .play-btn::before {
     position: absolute;
     content: '';
     bottom: -1vmin;
@@ -42,7 +42,7 @@
     transform-origin: center;
     animation: anim 1.2s linear 0.8s infinite;
 }
-.play-btn:active{
+.page-1 .play-btn:active{
     position: relative;
     top: 5px;
 }
@@ -59,7 +59,7 @@
     }
 }
 
-.play-text {
+.page-1 .play-text {
     font-size: 2.6vmin;
     color: #000000;
     font-weight: 600;
