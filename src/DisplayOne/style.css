@@ -428,3 +428,162 @@ body {
   background-color: white;
   color: black;
 }
+/* Page 3 */
+.page-3 {
+  margin: 5%;
+}
+.page-3 * {
+  box-sizing: border-box;
+}
+.page-3 h1 {
+  font-size: 5vmin;
+}
+.page-3 p {
+  font-size: 3vmin;
+}
+.page-3 button {
+  font-size: 2vmin;
+}
+.page-3 .team-info h1 {
+  padding-bottom: 5%;
+}
+.page-3 .team-info .row-title {
+  display: flex;
+  padding-bottom: 5%;
+}
+.page-3 .team-info .row-title .column-title {
+  position: relative;
+  flex-basis: 47%;
+  font-size: 20px;
+}
+.page-3 .team-info .row-title .column-button {
+  flex-basis: 47%;
+}
+.page-3 .team-info .row-title .column-button button {
+  position: relative;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #5e54e6;
+  color: white;
+  font-weight: 700;
+}
+.page-3 .team-info .row-img {
+  display: table;
+  margin-top: 5%;
+}
+.page-3 .team-info .row-img .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.page-3 .testimonial {
+  padding-top: 10%;
+}
+.page-3 .testimonial h1 {
+  text-align: center;
+}
+.page-3 .testimonial .flickity-viewport {
+  height: auto;
+}
+.page-3 .testimonial .carousel {
+  height: auto;
+  width: auto;
+}
+.page-3 .testimonial .carousel .carousel-cell {
+  margin: 30px;
+  width: 100%;
+}
+.page-3 .testimonial .carousel .carousel-cell img {
+  margin: 0 46%;
+  margin-bottom: 2%;
+  border-radius: 100%;
+}
+.page-3 .testimonial .carousel .carousel-cell .center-text {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+.page-3 .testimonial .carousel .carousel-cell .line {
+  width: 50%;
+  height: 1px;
+  background-color: black;
+  margin: 0 auto;
+}
+.page-3 .testimonial .carousel .carousel-cell .name {
+  text-align: center;
+  font-weight: 900;
+}
+.page-3 .testimonial .carousel .carousel-cell .prof {
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: 200;
+}
+.page-3 .work-together .p-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2%;
+}
+.page-3 .work-together .btn {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 10px;
+  border: none;
+}
+.page-3 .work-together .h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+}
+.page-3 .work-together .edit {
+  display: flex;
+  align-items: center;
+}
+.page-3 .work-together .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  width: 30px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.page-3 .work-together .fa-brands {
+  color: white;
+}
+.page-3 .work-together .input {
+  border-radius: 5px;
+  border: 2px solid;
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+}
+.page-3 .work-together .input-message {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+}
+.page-3 .work-together .textarea {
+  height: 100px;
+  width: 100%;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.page-3 .work-together .btn:active {
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px blueviolet;
+  transform: translateY(5px);
+}
+.page-3 .work-together .btn {
+  cursor: pointer;
+}
+.page-3 .work-together.head-page {
+  font-size: 5vmin;
+  font-weight: 600;
+}
+/* Page 3 */
