@@ -531,7 +531,7 @@ body {
   border-radius: 10px;
   border: none;
 }
-.page-3 .work-together .h2 {
+.page-3 .work-together .h-2 {
   margin-top: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid;
@@ -555,7 +555,7 @@ body {
 .page-3 .work-together .fa-brands {
   color: white;
 }
-.page-3 .work-together .input {
+.page-3 .work-together .inp {
   border-radius: 5px;
   border: 2px solid;
   margin-top: 20px;
@@ -567,7 +567,7 @@ body {
   grid-template-columns: auto auto;
   column-gap: 20px;
 }
-.page-3 .work-together .textarea {
+.page-3 .work-together .text-area {
   height: 100px;
   width: 100%;
   border: 2px solid;
