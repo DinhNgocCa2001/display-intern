@@ -587,3 +587,103 @@ body {
   font-weight: 600;
 }
 /* Page 3 */
+/* page wed 4*/
+.page-2 .wed-4 {
+    background-color: #fbfbfd;
+}
+
+.page-2 .part-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.page-2 .td {
+    background-color: white;
+    border: none;
+}
+
+.page-2 .data-1 {
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+
+.page-2 .data-2 {
+    margin: 20px;
+}
+
+.page-2 .img {
+    width: 20%;
+    height: 100px;
+
+}
+
+.page-2 .fa-2xl {
+    position: relative;
+    right: -30px;
+    bottom: 60px;
+
+}
+
+.page-2 .btn {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+}
+
+.page-2 .btn:active {
+    box-shadow:
+        0 0px 0 1px #fff,
+        0 0 10px 10px blueviolet;
+    transform: translateY(5px);
+}
+
+.page-2 .head-page {
+    font-size: 5vmin;
+    font-weight: 600;
+}
+
+/* page wed 5*/
+.page-2 .my-projects {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.page-2 .menu {
+    float: right;
+    display: flex;
+    font-size: 20px;
+}
+
+.page-2 .p {
+    margin-right: 20px;
+    border-color: red;
+}
+
+.page-2 .p:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.page-2 .image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    /* Khoảng cách giữa các ảnh */
+    margin: 2%;
+}
+
+.page-2 .image img {
+    border-radius: 2%;
+    width: 100%;
+}
+
+.page-2 .body {
+    margin: 2%;
+}
