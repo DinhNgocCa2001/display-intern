@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 .page-3 h1 {
-  font-size: 5vmin;
+  font-size: 45px;
 }
 .page-3 p {
   font-size: 3vmin;
@@ -18,24 +18,26 @@
 }
 .page-3 .team-info .row-title {
   display: flex;
-  padding-bottom: 5%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5% 0;
 }
-.page-3 .team-info .row-title .column-title {
-  position: relative;
-  flex-basis: 47%;
-  font-size: 20px;
+.page-3 .team-info .row-title .head-page {
+  font-size: 45px;
+  font-weight: 600;
 }
-.page-3 .team-info .row-title .column-button {
-  flex-basis: 47%;
-}
-.page-3 .team-info .row-title .column-button button {
-  position: relative;
-  right: 0;
-  height: 50px;
-  border-radius: 15px;
-  background-color: #5e54e6;
+.page-3 .team-info .row-title .btn {
+  cursor: pointer;
+  font-size: 2.3vmin;
   color: white;
-  font-weight: 700;
+  background-color: #6245c5;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+}
+.page-3 .team-info .row-title .btn:active {
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+  transform: translateY(5px);
 }
 .page-3 .team-info .row-img {
   display: table;
@@ -46,8 +48,12 @@
   width: 33.33%;
   padding: 5px;
 }
+.page-3 .team-info .row-img .column img {
+  border-radius: 2%;
+}
 .page-3 .testimonial {
   padding-top: 10%;
+  background-color: #fbfbfd;
 }
 .page-3 .testimonial h1 {
   text-align: center;
@@ -89,19 +95,25 @@
   padding-bottom: 50px;
   font-weight: 200;
 }
+.page-3 .flickity-page-dots {
+  bottom: 50px;
+}
 .page-3 .work-together .p-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2%;
+  margin: 5% 0;
 }
 .page-3 .work-together .btn {
+  cursor: pointer;
+  font-size: 2.3vmin;
   color: white;
-  background-color: blueviolet;
+  background-color: #6245c5;
   border-radius: 10px;
   border: none;
+  font-weight: 600;
 }
-.page-3 .work-together .h2 {
+.page-3 .work-together .h-2 {
   margin-top: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid;
@@ -112,22 +124,28 @@
   align-items: center;
 }
 .page-3 .work-together .icon {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blueviolet;
+  background-color: #6245c5;
   width: 30px;
   height: 40px;
   border-radius: 5px;
   margin-top: 20px;
   margin-right: 10px;
 }
+.page-3 .work-together .icon:active {
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+  transform: translateY(5px);
+}
 .page-3 .work-together .fa-brands {
   color: white;
 }
-.page-3 .work-together .input {
+.page-3 .work-together .inp {
+  padding-left: 15px;
   border-radius: 5px;
-  border: 2px solid;
+  border: 1px solid gray;
   margin-top: 20px;
   height: 50px;
   width: 100%;
@@ -137,22 +155,26 @@
   grid-template-columns: auto auto;
   column-gap: 20px;
 }
-.page-3 .work-together .textarea {
+.page-3 label {
+  color: gray;
+  font-size: 18px;
+}
+.page-3 .work-together .text-area {
+  padding-left: 15px;
+  padding-top: 2%;
   height: 100px;
   width: 100%;
-  border: 2px solid;
+  border: 1px solid gray;
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .page-3 .work-together .btn:active {
-  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px blueviolet;
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
   transform: translateY(5px);
 }
-.page-3 .work-together .btn {
-  cursor: pointer;
-}
-.page-3 .work-together.head-page {
-  font-size: 5vmin;
+
+.page-3 .work-together .head-page {
+  font-size: 45px;
   font-weight: 600;
 }
