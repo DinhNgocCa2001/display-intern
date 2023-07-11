@@ -63,13 +63,10 @@ body {
   font-weight: 600;
 }
 
-#download-cv-btn:hover {
-  background-color: #7b64d3;
-}
 
 #download-cv-btn:active {
-  position: relative;
-  top: 5px;
+    box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+    transform: translateY(5px);
 }
 
 .page-1 .play-btn {
@@ -118,8 +115,8 @@ body {
 }
 
 .page-1 .play-btn:active {
-  position: relative;
-  top: 5px;
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+  transform: translateY(5px);
 }
 
 @keyframes anim {
@@ -183,6 +180,7 @@ body {
 .page-1 .content-time-overview {
   font-size: 18px;
   color: gray;
+  text-align: justify;
 }
 
 .page-1 .ul-benefit {
@@ -222,7 +220,6 @@ body {
 
 #readmore-btn-overview {
   margin-top: 15px;
-
   width: 210px;
   height: 60px;
   border-radius: 15px;
@@ -234,13 +231,10 @@ body {
   font-weight: 600;
 }
 
-#readmore-btn-overview:hover {
-  background-color: #7b64d3;
-}
 
 #readmore-btn-overview:active {
-  position: relative;
-  top: 5px;
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+  transform: translateY(5px);
 }
 
 .page-1 .text-about {
@@ -287,6 +281,7 @@ body {
 }
 
 .page-1 .skill-contain p {
+  text-align: justify;
   margin-top: 45px;
   color: gray;
 }
@@ -428,7 +423,7 @@ body {
   box-sizing: border-box;
 }
 .page-3 h1 {
-  font-size: 5vmin;
+  font-size: 45px;
 }
 .page-3 p {
   font-size: 3vmin;
@@ -446,15 +441,23 @@ body {
   margin: 5% 0;
 }
 .page-3 .team-info .row-title .head-page {
-  font-size: 5vmin;
+  font-size: 45px;
   font-weight: 600;
 }
 .page-3 .team-info .row-title .btn {
   cursor: pointer;
+  font-size: 2.3vmin;
   color: white;
-  background-color: blueviolet;
+  background-color: #6245c5;
   border-radius: 10px;
   border: none;
+  font-weight: 600;
+}
+.page-3 .team-info .row-title .btn:active{
+
+    box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+    transform: translateY(5px);
+ 
 }
 .page-3 .team-info .row-img {
   display: table;
@@ -470,6 +473,7 @@ body {
 }
 .page-3 .testimonial {
   padding-top: 10%;
+  background-color: #fbfbfd;
 }
 .page-3 .testimonial h1 {
   text-align: center;
@@ -521,10 +525,13 @@ body {
   margin: 5% 0;
 }
 .page-3 .work-together .btn {
+  cursor: pointer;
+  font-size: 2.3vmin;
   color: white;
-  background-color: blueviolet;
+  background-color: #6245c5;
   border-radius: 10px;
   border: none;
+  font-weight: 600;
 }
 .page-3 .work-together .h-2 {
   margin-top: 20px;
@@ -537,22 +544,28 @@ body {
   align-items: center;
 }
 .page-3 .work-together .icon {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blueviolet;
+  background-color: #6245c5;
   width: 30px;
   height: 40px;
   border-radius: 5px;
   margin-top: 20px;
   margin-right: 10px;
 }
+.page-3 .work-together .icon:active{
+    box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+    transform: translateY(5px);
+}
 .page-3 .work-together .fa-brands {
   color: white;
 }
 .page-3 .work-together .inp {
+  padding-left: 15px;
   border-radius: 5px;
-  border: 2px solid;
+  border: 1px solid gray;
   margin-top: 20px;
   height: 50px;
   width: 100%;
@@ -562,23 +575,27 @@ body {
   grid-template-columns: auto auto;
   column-gap: 20px;
 }
+.page-3 label{
+  color:gray;
+  font-size: 18px;
+}
 .page-3 .work-together .text-area {
+  padding-left: 15px;
+  padding-top: 2%;
   height: 100px;
   width: 100%;
-  border: 2px solid;
+  border: 1px solid gray;
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .page-3 .work-together .btn:active {
-  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px blueviolet;
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
   transform: translateY(5px);
 }
-.page-3 .work-together .btn {
-  cursor: pointer;
-}
+
 .page-3 .work-together .head-page {
-  font-size: 5vmin;
+  font-size: 45px;
   font-weight: 600;
 }
 /* Page 3 */
@@ -611,7 +628,9 @@ body {
 .page-2 .data-2 {
   margin: 20px;
 }
-
+.page-2 .data-2 p {
+  text-align: justify;
+}
 .page-2 .img {
   width: 20%;
   height: 100px;
@@ -624,26 +643,28 @@ body {
 }
 
 .page-2 .btn {
-  font-size: 2vmin;
+  cursor: pointer;
+  font-size: 2.3vmin;
   color: white;
-  background-color: blueviolet;
+  background-color: #6245c5;
   border-radius: 10px;
   border: none;
+  font-weight: 600;
 }
 
 .page-2 .btn:active {
-  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px blueviolet;
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
   transform: translateY(5px);
 }
 
 .page-2 .head-page {
-  font-size: 5vmin;
+  font-size: 45px;
   font-weight: 600;
 }
 
 /* page wed 5*/
 .page-2 .my-projects {
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 40px;
 }
 
