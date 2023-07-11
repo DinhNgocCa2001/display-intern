@@ -85,10 +85,9 @@ body {
   margin-left: 30px;
 }
 
-
 .page-1 .play-btn::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -1vmin;
   top: -1vmin;
   left: -1vmin;
@@ -104,7 +103,7 @@ body {
 
 .page-1 .play-btn::before {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -1vmin;
   top: -1vmin;
   left: -1vmin;
@@ -152,12 +151,10 @@ body {
 
 .page-1 .header-time-overview {
   display: flex;
-
 }
 
 .page-1 .time-work {
   width: 100%;
-
 }
 
 .page-1 .year-exp {
@@ -212,7 +209,6 @@ body {
 
 .page-1 .about-work {
   width: 100%;
-
 }
 
 .page-1 .img-overview {
@@ -250,7 +246,6 @@ body {
 .page-1 .text-about {
   width: 100%;
   padding-top: 40px;
-
 }
 
 .page-1 .vertical-line {
@@ -271,7 +266,6 @@ body {
 .page-1 .text-about-content p {
   color: gray;
   font-size: 16px;
-
 }
 
 .page-1 .number-text-about {
@@ -316,7 +310,6 @@ body {
   border-collapse: collapse;
   border-style: hidden;
   table-layout: fixed;
-
 }
 
 .page-1 .my-skills-table td {
@@ -326,7 +319,6 @@ body {
 .page-1 .skill-header {
   display: flex;
   justify-content: space-between;
-
 }
 
 .page-1 .progress-bar {
@@ -449,23 +441,20 @@ body {
 }
 .page-3 .team-info .row-title {
   display: flex;
-  padding-bottom: 5%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5%;
 }
-.page-3 .team-info .row-title .column-title {
-  position: relative;
-  flex-basis: 47%;
-  font-size: 20px;
+.page-3 .team-info .row-title .head-page {
+  font-size: 5vmin;
+  font-weight: 600;
 }
-.page-3 .team-info .row-title .column-button {
-  flex-basis: 47%;
-}
-.page-3 .team-info .row-title .column-button button {
-  position: relative;
-  height: 50px;
-  border-radius: 15px;
-  background-color: #5e54e6;
+.page-3 .team-info .row-title .btn {
+  cursor: pointer;
   color: white;
-  font-weight: 700;
+  background-color: blueviolet;
+  border-radius: 10px;
+  border: none;
 }
 .page-3 .team-info .row-img {
   display: table;
@@ -589,101 +578,97 @@ body {
 /* Page 3 */
 /* page wed 4*/
 .page-2 .wed-4 {
-    background-color: #fbfbfd;
+  background-color: #fbfbfd;
 }
 
 .page-2 .part-1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5%;
 }
 
 .page-2 .td {
-    background-color: white;
-    border: none;
+  background-color: white;
+  border: none;
 }
 
 .page-2 .data-1 {
-    display: flex;
-    align-items: center;
-    margin: 1%;
+  display: flex;
+  align-items: center;
+  margin: 1%;
 }
 
 .page-2 .data-2 {
-    margin: 20px;
+  margin: 20px;
 }
 
 .page-2 .img {
-    width: 20%;
-    height: 100px;
-
+  width: 20%;
+  height: 100px;
 }
 
 .page-2 .fa-2xl {
-    position: relative;
-    right: -30px;
-    bottom: 60px;
-
+  position: relative;
+  right: -30px;
+  bottom: 60px;
 }
 
 .page-2 .btn {
-    cursor: pointer;
-    width: 100px;
-    height: 50px;
-    color: white;
-    background-color: blueviolet;
-    border: none;
-    border-radius: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 10px;
 }
 
 .page-2 .btn:active {
-    box-shadow:
-        0 0px 0 1px #fff,
-        0 0 10px 10px blueviolet;
-    transform: translateY(5px);
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px blueviolet;
+  transform: translateY(5px);
 }
 
 .page-2 .head-page {
-    font-size: 5vmin;
-    font-weight: 600;
+  font-size: 5vmin;
+  font-weight: 600;
 }
 
 /* page wed 5*/
 .page-2 .my-projects {
-    font-size: 50px;
-    margin-bottom: 40px;
+  font-size: 50px;
+  margin-bottom: 40px;
 }
 
 .page-2 .menu {
-    float: right;
-    display: flex;
-    font-size: 20px;
+  float: right;
+  display: flex;
+  font-size: 20px;
 }
 
 .page-2 .p {
-    margin-right: 20px;
-    border-color: red;
+  margin-right: 20px;
+  border-color: red;
 }
 
 .page-2 .p:hover {
-    color: blue;
-    text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
 }
 
 .page-2 .image {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    /* Khoảng cách giữa các ảnh */
-    margin: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  /* Khoảng cách giữa các ảnh */
+  margin: 5%;
 }
 
 .page-2 .image img {
-    border-radius: 2%;
-    width: 100%;
+  border-radius: 2%;
+  width: 100%;
 }
 
 .page-2 .body {
-    margin: 5%;
+  margin: 5%;
 }
