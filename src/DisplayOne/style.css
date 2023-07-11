@@ -2,7 +2,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* Thanh Dev */
+/* Page 1 */
 .page-1 .header {
   margin-top: 0;
   align-items: center;
@@ -377,10 +377,10 @@ body {
   background-color: white;
   color: black;
 }
-/* Thanh Dev */
-/* Luc Dev */
-/* Luc Dev */
-/* Hoai Dev */
+/* Page 1 */
+/* Page 2 */
+/* Page 2 */
+/* Page 3 */
 .page-3 {
   margin: 5%;
 }
@@ -538,4 +538,4 @@ body {
   font-size: 5vmin;
   font-weight: 600;
 }
-/* Hoai Dev */
+/* Page 3 */
