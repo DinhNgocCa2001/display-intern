@@ -1,336 +1,379 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family:  Arial, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
-.header{
+
+.page-1 .header {
   margin-top: 0;
-width: 100%;
-height: 600px;
-display:flex;
-align-items: center;
-background-color:#fbfbfd;
-}
-.content-header{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:12rem;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-color: #fbfbfd;
 }
 
-.text-header{
-    padding-left: 80px;
-    padding-top: 80px;
-}
-.im{
-    color:#7b64d3;
-    font-size: 40px;
-    margin: 0;
-    font-weight: 600;
-}
-.text-header h1{
-    margin-top: 15px;
-    margin-bottom: 0;
-    font-size: 65px;
-}
-.type-apps{
-    margin-top: 25px;
-    font-size: 35px;
-    margin-bottom: 45px;
-    font-weight: 600;
+.page-1 .content-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12rem;
 }
 
-.image-header {
-    width: 600px;
-    height: 600px;
-    object-fit: cover;
-    object-position: 0 100%;
-  }
-  #download-cv-btn{
-        cursor: pointer;
-        width: 180px;
-        height: 75px;
-        background-color: #6245c5;
-        color: white;
-        border-radius: 20px;
-        border: none;
-        font-size: 18px;
-        font-weight: 600;
-  }
-  #download-cv-btn:hover{
-    background-color: #7b64d3;
-  }
-  #download-cv-btn:active {
-    position: relative;
-    top: 5px;
-  }
+.page-1 .text-header {
+  padding-left: 80px;
+  padding-top: 80px;
+}
 
-  .play-btn {
-    cursor: pointer;
-    width: 10vmin;
-    height: 10vmin;
-    background-color: #6245c5;
-    border: none;
-    color: aliceblue;
-    border-radius: 50%;
-    position: relative;
-    font-size: 4vmin;
-    margin-left: 30px;
-  }
-  
-  
-  .play-btn::after {
-    position: absolute;
-    content: '';
-    bottom: -1vmin;
-    top: -1vmin;
-    left: -1vmin;
-    right: -1vmin;
-    background-color: transparent;
-    border-radius: 50%;
-    border: 0.5vmin solid #6245c5;
+.page-1 .im {
+  color: #7b64d3;
+  font-size: 40px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.page-1 .text-header h1 {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 65px;
+}
+
+.page-1 .type-apps {
+  margin-top: 25px;
+  font-size: 35px;
+  margin-bottom: 45px;
+  font-weight: 600;
+}
+
+.page-1 .image-header {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  object-position: 0 100%;
+}
+
+#download-cv-btn {
+  cursor: pointer;
+  width: 180px;
+  height: 75px;
+  background-color: #6245c5;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#download-cv-btn:hover {
+  background-color: #7b64d3;
+}
+
+#download-cv-btn:active {
+  position: relative;
+  top: 5px;
+}
+
+.page-1 .play-btn {
+  cursor: pointer;
+  width: 10vmin;
+  height: 10vmin;
+  background-color: #6245c5;
+  border: none;
+  color: aliceblue;
+  border-radius: 50%;
+  position: relative;
+  font-size: 4vmin;
+  margin-left: 30px;
+}
+
+
+.page-1 .play-btn::after {
+  position: absolute;
+  content: '';
+  bottom: -1vmin;
+  top: -1vmin;
+  left: -1vmin;
+  right: -1vmin;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 0.5vmin solid #6245c5;
+  margin: 0;
+  opacity: 1;
+  transform-origin: center;
+  animation: anim 1.2s linear infinite;
+}
+
+.page-1 .play-btn::before {
+  position: absolute;
+  content: '';
+  bottom: -1vmin;
+  top: -1vmin;
+  left: -1vmin;
+  right: -1vmin;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 0.5vmin solid #6245c5;
+  margin: 0;
+  opacity: 0.8;
+  transform-origin: center;
+  animation: anim 1.2s linear 0.8s infinite;
+}
+
+.page-1 .play-btn:active {
+  position: relative;
+  top: 5px;
+}
+
+@keyframes anim {
+  from {
     margin: 0;
     opacity: 1;
-    transform-origin: center;
-    animation: anim 1.2s linear infinite;
-  }
-  
-  .play-btn::before {
-    position: absolute;
-    content: '';
-    bottom: -1vmin;
-    top: -1vmin;
-    left: -1vmin;
-    right: -1vmin;
-    background-color: transparent;
-    border-radius: 50%;
-    border: 0.5vmin solid #6245c5;
-    margin: 0;
-    opacity: 0.8;
-    transform-origin: center;
-    animation: anim 1.2s linear 0.8s infinite;
-  }
-  
-  .play-btn:active {
-    position: relative;
-    top: 5px;
-  }
-  
-  @keyframes anim {
-    from {
-      margin: 0;
-      opacity: 1;
-    }
-  
-    to {
-      margin: -2vmin;
-      opacity: 0;
-    }
-  }
-  
-  .play-text {
-    font-size: 2.6vmin;
-    color: #000000;
-    font-weight: 600;
-    margin-left: 2vmin;
   }
 
-  .content-overview{
-    margin-top: 100px;
-    display:flex;
-    gap: 5%;
-    padding-left:100px;
-    padding-right: 120px;
+  to {
+    margin: -2vmin;
+    opacity: 0;
   }
-  .header-time-overview{
-    display: flex;
-    
-  }
-  .time-work{
-    width:100%;
-    
-  }
-  .year-exp{
-    font-size: 180px;
-    margin: 0;
-    margin-left: 15px;
-    font-weight: 700;
-    padding: 0;
-  }
-  .years-label{
-    padding: 0;
-    margin-left: 10px;
-    margin-top:-20px;
-    letter-spacing: 40px;
-    font-size: 22px;
-  }
-  .job-exp{
-    margin-left: -30px;
-    padding-top: 40px;
-    padding-left: 10px;
-    font-size: 28px;
-  }
-  .content-time-overview{
-    font-size: 18px;
-    color: gray;
-  }
+}
 
-  .ul-benefit {
-    list-style: none;
-    padding-top: 20px;
-    padding-left: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap:25px;
-    font-size: 18px;
-    color: gray;
-    margin-bottom: 25px;
-  }
-  .fa-circle-check{
-    color:#6245c5;
-  }
-  .ul-benefit li {
-    display: flex;
-    gap:30px;
-  }
-  .about-work{
-    width:100%;
-   
-  }
- .img-overview{
+.page-1 .play-text {
+  font-size: 2.6vmin;
+  color: #000000;
+  font-weight: 600;
+  margin-left: 2vmin;
+}
+
+.page-1 .content-overview {
+  margin-top: 100px;
+  display: flex;
+  gap: 5%;
+  padding-left: 100px;
+  padding-right: 120px;
+}
+
+.page-1 .header-time-overview {
+  display: flex;
+
+}
+
+.page-1 .time-work {
+  width: 100%;
+
+}
+
+.page-1 .year-exp {
+  font-size: 180px;
+  margin: 0;
+  margin-left: 15px;
+  font-weight: 700;
+  padding: 0;
+}
+
+.page-1 .years-label {
+  padding: 0;
+  margin-left: 10px;
+  margin-top: -20px;
+  letter-spacing: 40px;
+  font-size: 22px;
+}
+
+.page-1 .job-exp {
+  margin-left: -30px;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: 28px;
+}
+
+.page-1 .content-time-overview {
+  font-size: 18px;
+  color: gray;
+}
+
+.page-1 .ul-benefit {
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.page-1 .fa-circle-check {
+  color: #6245c5;
+}
+
+.page-1 .ul-benefit li {
+  display: flex;
+  gap: 30px;
+}
+
+.page-1 .about-work {
+  width: 100%;
+
+}
+
+.page-1 .img-overview {
   border-radius: 20px;
- }
-  .img-overview-contain{
-    display:flex;
-    gap:20px;
-  }
-  #readmore-btn-overview{
-    margin-top: 15px;
+}
 
-    width: 210px;
-    height: 60px;
-    border-radius: 15px;
-    background-color: #6245c5;
-    color:white;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    font-weight: 600;
-  }
-  #readmore-btn-overview:hover{
-    background-color:#7b64d3;
-  }
-  #readmore-btn-overview:active{
-      position: relative;
-      top: 5px;
-  }
-  .text-about{
-    width: 100%;
-    padding-top:40px;
-    
-  }
-  .vertical-line{
-    margin:0 15px;
-    border-left: 2px solid gray;
-    font-size: 20px;
-  }
-  .title-text-about{
-    font-size: 18px;
-    font-weight: 500;
-  }
-  .text-about-content{
-    margin-bottom: 40px;
-  }
-  .text-about-content p{
-    color: gray;
-    font-size: 16px;
-  
-  }
-  .number-text-about{
-    font-size: 30px;
-    color: #6142bb;
-    font-weight: 600;
-  }
-  .skill-and-exp-contain{
-    margin-top: 80px;
-    display:flex;
-    gap: 5%;
-    padding-left:100px;
-    padding-right: 120px;
-  }
-  .skill-contain{
-    width: 100%;
-  }
-  .skill-contain p {
-    margin-top: 45px;
-    color:gray;
-  }
-  .skill-contain h1{
-    font-size: 45px;
-    margin: 0;
-  }
-  .my-skills-contain h2{
-    font-size: 30px;
-    font-weight: 500;
-  }
-  .exp-and-edu-contain{
-    width: 100%;
-  }
-  .my-skills-table{
-    width: 100%;
-    border-collapse: collapse;
-    border-style: hidden;
-    table-layout: fixed;
-   
-  }
-  .my-skills-table td{
-    border: 30px solid rgb(255, 255, 255);
-  }
-  .skill-header{
-    display: flex;
-    justify-content: space-between;
-    
-  }
- .progress-bar{
+.page-1 .img-overview-contain {
+  display: flex;
+  gap: 20px;
+}
+
+#readmore-btn-overview {
+  margin-top: 15px;
+
+  width: 210px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #6245c5;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#readmore-btn-overview:hover {
+  background-color: #7b64d3;
+}
+
+#readmore-btn-overview:active {
+  position: relative;
+  top: 5px;
+}
+
+.page-1 .text-about {
+  width: 100%;
+  padding-top: 40px;
+
+}
+
+.page-1 .vertical-line {
+  margin: 0 15px;
+  border-left: 2px solid gray;
+  font-size: 20px;
+}
+
+.page-1 .title-text-about {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.page-1 .text-about-content {
+  margin-bottom: 40px;
+}
+
+.page-1 .text-about-content p {
+  color: gray;
+  font-size: 16px;
+
+}
+
+.page-1 .number-text-about {
+  font-size: 30px;
+  color: #6142bb;
+  font-weight: 600;
+}
+
+.page-1 .skill-and-exp-contain {
+  margin-top: 80px;
+  display: flex;
+  gap: 5%;
+  padding-left: 100px;
+  padding-right: 120px;
+}
+
+.page-1 .skill-contain {
+  width: 100%;
+}
+
+.page-1 .skill-contain p {
+  margin-top: 45px;
+  color: gray;
+}
+
+.page-1 .skill-contain h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.page-1 .my-skills-contain h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.page-1 .exp-and-edu-contain {
+  width: 100%;
+}
+
+.page-1 .my-skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden;
+  table-layout: fixed;
+
+}
+
+.page-1 .my-skills-table td {
+  border: 30px solid rgb(255, 255, 255);
+}
+
+.page-1 .skill-header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.page-1 .progress-bar {
   margin-top: 10px;
   width: 100%;
   background-color: rgb(208, 208, 208);
   height: 5px;
   border-radius: 30px;
- }
- .color-bar1{
+}
+
+.page-1 .color-bar1 {
   width: 95%;
   background-color: #6142bb;
   height: 5px;
   border-radius: 30px;
- }
- .color-bar2{
+}
+
+.page-1 .color-bar2 {
   width: 90%;
   background-color: red;
   height: 5px;
   border-radius: 30px;
- }
- .color-bar3{
+}
+
+.page-1 .color-bar3 {
   width: 85%;
   background-color: yellow;
   height: 5px;
   border-radius: 30px;
- }
- .color-bar4{
+}
+
+.page-1 .color-bar4 {
   width: 95%;
   background-color: black;
   height: 5px;
   border-radius: 30px;
- }
- .exp-and-edu-header{
+}
+
+.page-1 .exp-and-edu-header {
   display: flex;
   width: 100%;
   height: 50px;
   border: 2px solid #6142bb;
   border-radius: 10px;
- }
+}
 
-.exp-header {
+.page-1 .exp-header {
   width: 50%;
   display: flex;
   align-items: center;
@@ -342,7 +385,7 @@ background-color:#fbfbfd;
   cursor: pointer;
 }
 
- .edu-header {
+.page-1 .edu-header {
   width: 50%;
   display: flex;
   align-items: center;
@@ -355,28 +398,34 @@ background-color:#fbfbfd;
 }
 
 
- .exp-table {
+.page-1 .exp-table {
   margin-top: 2vmin;
   width: 100%;
   table-layout: fixed;
 }
 
- .edu-table {
+.page-1 .edu-table {
   margin-top: 2vmin;
   width: 100%;
   table-layout: fixed;
 }
- .job-des{
+
+.page-1 .job-des {
   font-size: 22px;
   font-weight: 500;
- }
- .time-des{
+}
+
+.page-1 .time-des {
   color: #6142bb;
- }
- .line-exp-des{
-  margin:0; margin-top: -15px; width:15%;
- }
- .change-background {
+}
+
+.page-1 .line-exp-des {
+  margin: 0;
+  margin-top: -15px;
+  width: 15%;
+}
+
+.page-1 .change-background {
   background-color: white;
   color: black;
 }
