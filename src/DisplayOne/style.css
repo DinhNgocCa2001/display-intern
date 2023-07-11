@@ -146,8 +146,8 @@ body {
   margin-top: 100px;
   display: flex;
   gap: 5%;
-  padding-left: 100px;
-  padding-right: 120px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .page-1 .header-time-overview {
@@ -284,8 +284,8 @@ body {
   margin-top: 80px;
   display: flex;
   gap: 5%;
-  padding-left: 100px;
-  padding-right: 120px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .page-1 .skill-contain {
@@ -523,7 +523,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2%;
+  margin: 5%;
 }
 .page-3 .work-together .btn {
   color: white;
@@ -596,7 +596,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2%;
+    margin: 5%;
 }
 
 .page-2 .td {
@@ -676,7 +676,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     /* Khoảng cách giữa các ảnh */
-    margin: 2%;
+    margin: 5%;
 }
 
 .page-2 .image img {
@@ -685,5 +685,5 @@ body {
 }
 
 .page-2 .body {
-    margin: 2%;
+    margin: 5%;
 }
