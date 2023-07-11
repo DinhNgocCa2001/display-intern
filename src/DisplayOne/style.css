@@ -63,10 +63,9 @@ body {
   font-weight: 600;
 }
 
-
 #download-cv-btn:active {
-    box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
-    transform: translateY(5px);
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+  transform: translateY(5px);
 }
 
 .page-1 .play-btn {
@@ -230,7 +229,6 @@ body {
   cursor: pointer;
   font-weight: 600;
 }
-
 
 #readmore-btn-overview:active {
   box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
@@ -453,11 +451,9 @@ body {
   border: none;
   font-weight: 600;
 }
-.page-3 .team-info .row-title .btn:active{
-
-    box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
-    transform: translateY(5px);
- 
+.page-3 .team-info .row-title .btn:active {
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+  transform: translateY(5px);
 }
 .page-3 .team-info .row-img {
   display: table;
@@ -555,9 +551,9 @@ body {
   margin-top: 20px;
   margin-right: 10px;
 }
-.page-3 .work-together .icon:active{
-    box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
-    transform: translateY(5px);
+.page-3 .work-together .icon:active {
+  box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
+  transform: translateY(5px);
 }
 .page-3 .work-together .fa-brands {
   color: white;
@@ -575,8 +571,8 @@ body {
   grid-template-columns: auto auto;
   column-gap: 20px;
 }
-.page-3 label{
-  color:gray;
+.page-3 label {
+  color: gray;
   font-size: 18px;
 }
 .page-3 .work-together .text-area {
