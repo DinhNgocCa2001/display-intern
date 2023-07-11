@@ -1,14 +1,37 @@
-/*page wed 4*/
-.wed-4{
+.page-2 .wed-4{
     background-color: #fbfbfd;
 }
-.part-1 {
+.page-2 .part-1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 2%;
 }
-.hire-me-btn{
+.page-2 .td{
+    background-color: white;
+    border: none;
+}
+.page-2 .data-1{
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+.page-2 .data-2{
+    margin: 20px;
+}
+.page-2 .img{
+    width: 20%;
+    height: 100px;
+   
+}
+.page-2 .fa-2xl{
+    position:relative;
+    right: -30px;
+    bottom: 60px;
+    
+}
+.page-2 .btn{
+    cursor: pointer;
     width: 100px;
     height: 50px;
     color: white;
@@ -16,96 +39,13 @@
     border: none;
     border-radius: 10px; 
 }
-td{
-    background-color: white;
-    border: none;
-}
-.data-1{
-    display: flex;
-    align-items: center;
-    margin: 1%;
-}
-.data-2{
-    margin: 20px;
-}
-.img{
-    width: 20%;
-    height: 100px;
-   
-}
-.fa-2xl{
-    position:relative;
-    right: -30px;
-    bottom: 60px;
-    
-}
-/*page wed 8*/
-.p-1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 2%;
-}
-.btn{
-    color: white;
-    background-color: blueviolet;
-    border-radius: 10px;
-    border: none;
-}
-h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid;
-    padding-bottom: 20px;
-}
-.edit{
-    display: flex;
-    align-items: center;
-}
-.icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blueviolet;
-    width: 30px;
-    height: 40px;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-right: 10px;
-}
-i{
-    color: white;
-}
-input{
-    border-radius: 5px;
-    border: 2px solid;
-    margin-top: 20px;
-    height: 50px;
-    width: 100%;
-}
-.input-message{
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20px;
-}
-textarea{
-    height: 100px;
-    width: 100%;
-    border: 2px solid;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-button:active{
+.page-2 .btn:active{
     box-shadow: 
             0 0px 0 1px #fff,
             0 0 10px 10px blueviolet;
     transform: translateY(5px);
 }
-button{
-    cursor: pointer;
-}
-.head-page{
+.page-2 .head-page{
     font-size:5vmin;
     font-weight: 600;
 }
