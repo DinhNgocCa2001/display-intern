@@ -443,7 +443,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 5%;
+  margin: 5% 0;
 }
 .page-3 .team-info .row-title .head-page {
   font-size: 5vmin;
@@ -512,7 +512,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 5%;
+  margin: 5% 0;
 }
 .page-3 .work-together .btn {
   color: white;
@@ -615,13 +615,11 @@ body {
 }
 
 .page-2 .btn {
-  cursor: pointer;
-  width: 100px;
-  height: 50px;
+  font-size: 2vmin;
   color: white;
   background-color: blueviolet;
-  border: none;
   border-radius: 10px;
+  border: none;
 }
 
 .page-2 .btn:active {
