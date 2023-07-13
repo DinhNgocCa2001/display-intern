@@ -415,20 +415,17 @@ body {
 .page-3 {
   margin: 5%;
 }
-.page-3 * {
+.page-3-all {
   box-sizing: border-box;
 }
-.page-3 h1 {
+.h1-page3{
   font-size: 45px;
 }
-.page-3 p {
+.page-3-p {
   font-size: 3vmin;
 }
-.page-3 button {
+.page-3-button {
   font-size: 2vmin;
-}
-.team-info h1 {
-  padding-bottom: 5%;
 }
 .row-title {
   display: flex;
@@ -463,14 +460,14 @@ body {
   width: 33.33%;
   padding: 5px;
 }
-.column img {
+.column-img {
   border-radius: 2%;
 }
 .testimonial {
   padding-top: 10%;
   background-color: #fbfbfd;
 }
-.testimonial h1 {
+.testimonial-h1 {
   text-align: center;
 }
 .flickity-viewport {
@@ -484,7 +481,7 @@ body {
   margin: 30px;
   width: 100%;
 }
-.carousel-cell img {
+.carousel-cell-img {
   margin: 0 46%;
   margin-bottom: 2%;
   border-radius: 100%;
@@ -689,7 +686,7 @@ label {
   margin: 5%;
 }
 
-.image-page2 img {
+.image-page2-img {
   border-radius: 2%;
   width: 100%;
 }
