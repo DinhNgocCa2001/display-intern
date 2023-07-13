@@ -197,7 +197,7 @@ body {
 .fa-circle-check {
   color: #6245c5;
 }
-.ul-benefit li {
+#ulb-li {
   display: flex;
   gap: 30px;
 }
