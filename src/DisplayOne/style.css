@@ -620,9 +620,9 @@ label {
 .data-2 {
   margin: 20px;
 }
-.p-2 {
+.p2 {
   text-align: justify;
-
+  color: gray;
 }
 .img-page2 {
   width: 20%;
