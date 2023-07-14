@@ -421,123 +421,349 @@
   </div>
     <!--Page 2-->
     <!--Page 3-->
-    <div class="page-3">
-      <div class="team-info">
-        <div class="row-title">
-          <div class="head-page">Team members</div>
-          <button class="btn" style="width: 110px; height: 60px">
-            Contact Us
-          </button>
-        </div>
-        <!--  -->
-        <div class="row-img">
-          <div class="column">
-            <img src="./img/team-1.jpg" style="width: 100%" />
-          </div>
-          <div class="column">
-            <img src="./img/team-2.jpg" style="width: 100%" />
-          </div>
-          <div class="column">
-            <img src="./img/team-3.jpg" style="width: 100%" />
-          </div>
-        </div>
-      </div>
-      <!--  -->
-      <div class="testimonial">
-        <h1>Testimonial</h1>
-        <div class="carousel" data-flickity='{"autoPlay": true}'>
-          <div class="carousel-cell">
-            <img src="./img/testimonial-1.jpg" />
-            <p class="center-text">
-              “I noticed I asked you for a deliverable on this key project by
-              the end of last week.”
-            </p>
-            <div class="line"></div>
-            <h3 class="name">Anna Meo</h3>
-            <h4 class="prof">Developer</h4>
-          </div>
-          <div class="carousel-cell">
-            <img src="./img/testimonial-2.jpg" />
-            <p class="center-text">
-              “I noticed I asked you for a deliverable on this key project by
-              the end of last week.”
-            </p>
-            <div class="line"></div>
-            <h3 class="name">Anna Ku</h3>
-            <h4 class="prof">Developer</h4>
-          </div>
-          <div class="carousel-cell">
-            <img src="./img/testimonial-3.jpg" />
-            <p class="center-text">
-              “I noticed I asked you for a deliverable on this key project by
-              the end of last week.”
-            </p>
-            <div class="line"></div>
-            <h3 class="name">Anna Kun</h3>
-            <h4 class="prof">Developer</h4>
-          </div>
-        </div>
-      </div>
-      <!--  -->
-      <div class="work-together">
-        <div class="p-1">
-          <div class="head-page">Let's Work Together</div>
-          <button class="btn" style="width: 110px; height: 60px">
-            Say Hello
-          </button>
-        </div>
-        <div class="p-1">
-          <div style="width: 50%; margin-right: 3%">
-            <label>My office:</label><br />
-            <h2 class="h-2">123 Street, New York, USA</h2>
-            <label>Callme:</label><br />
-            <h2 class="h-2">+012 345 6789</h2>
-            <label>Mailme:</label><br />
-            <h2 class="h-2">info@example.com</h2>
-            <label>Follow me:</label><br />
-            <div class="edit">
-              <div class="icon">
-                <i class="fa-brands fa-twitter"></i>
-              </div>
-              <div class="icon">
-                <i class="fa-brands fa-facebook-f"></i>
-              </div>
-              <div class="icon">
-                <i class="fa-brands fa-youtube"></i>
-              </div>
-              <div class="icon">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </div>
-            </div>
-          </div>
-          <div style="width: 100%">
-            <span style="color: gray"
-              >Stet lorem dolor diam amet vero eos. No stet est diam amet diam
-              ipsum. Clita dolor duo clita sit sed dolor eos. Stet lorem dolor
-              diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor
-              duo clita sit sed.</span
-            >
-            <span style="color: blueviolet"
-              ><a
-                href="https://www.codecademy.com/"
-                style="text-decoration: none"
-                >Download Now...</a
-              ></span
-            >
-            <div class="input-message">
-              <input class="inp" type="text" placeholder="Your Name" />
-              <input class="inp" type="text" placeholder="Your Email" />
-            </div>
-            <input class="inp" type="text" placeholder="Subject" /><br />
-            <textarea
-              class="text-area"
-              rows="4"
-              cols="50"
-              placeholder="Message"
-            ></textarea>
-            <button class="btn" style="width: 150px; height: 70px">
-              <div style="margin: 1%">Send Message</div>
+    <div class="page-3 container-sm container container-lg container-md mt-5">
+      <div class="team-info mb-5 row p-2">
+        <div class="col-12 mb-5">
+          <div class="row justify-content-between">
+            <h1 class="col-8 col-sm-10 p-0">Team members</h1>
+            <button type="button" class="col-4 col-sm-2 btn btn-primary">
+              Contact Us
             </button>
+          </div>
+        </div>
+        <div class="col-12 pb-5">
+          <div class="row">
+            <div class="col p-0">
+              <img class="img-fluid rounded" src="./img/team-1.jpg" />
+            </div>
+            <div class="col p-0 mx-3">
+              <img class="img-fluid rounded" src="./img/team-2.jpg" />
+            </div>
+            <div class="col p-0">
+              <img class="img-fluid rounded" src="./img/team-3.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial pt-5 mb-5">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators pb-2">
+            <button
+              type="button"
+              data-bs-slide-to="0"
+              aria-current="true"
+              class="btn btn-warning rounded-circle active p-2 m-1"
+            ></button>
+            <button
+              type="button"
+              data-bs-slide-to="1"
+              class="btn btn-warning rounded-circle p-2 m-1"
+            ></button>
+            <button
+              type="button"
+              data-bs-slide-to="2"
+              class="btn btn-warning rounded-circle p-2 m-1"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <svg
+                class=""
+                width="100%"
+                height="80vmin"
+                role="img"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <rect
+                  width="100%"
+                  height="100%"
+                  fill="rgb(250,250,250)"
+                  style="border-radius: 100%"
+                ></rect>
+                <text
+                  class="h1 text-center"
+                  x="50%"
+                  y="10%"
+                  text-anchor="middle"
+                  dominant-baseline="middle"
+                >
+                  Testimonial
+                </text>
+                <foreignObject
+                  width="100%"
+                  height="60%"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <div
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    "
+                  >
+                    <img
+                      src="./img/testimonial-1.jpg"
+                      style="width: 20vmin; height: 20vmin; border-radius: 100%"
+                    />
+                  </div>
+                </foreignObject>
+              </svg>
+              <div class="carousel-caption pb-5 d-block d-md-block">
+                <p class="text-secondary d-none d-md-block fs-6 fst-italic">
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                </p>
+                <div class="row pb-3 pt-2 d-none d-md-flex">
+                  <div class="col-2"></div>
+                  <div class="col-8 border-bottom border-dark"></div>
+                  <div class="col-2"></div>
+                </div>
+                <p class="text-dark fs-6">Hanna Anna</p>
+                <p class="text-secondary fs-6">Developer</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg
+                class=""
+                width="100%"
+                height="80vmin"
+                role="img"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <rect
+                  width="100%"
+                  height="100%"
+                  fill="rgb(250,250,250)"
+                  style="border-radius: 100%"
+                ></rect>
+                <text
+                  class="h1 text-center"
+                  x="50%"
+                  y="10%"
+                  text-anchor="middle"
+                  dominant-baseline="middle"
+                >
+                  Testimonial
+                </text>
+                <foreignObject
+                  width="100%"
+                  height="60%"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <div
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    "
+                  >
+                    <img
+                      src="./img/testimonial-2.jpg"
+                      style="width: 20vmin; height: 20vmin; border-radius: 100%"
+                    />
+                  </div>
+                </foreignObject>
+              </svg>
+              <div class="carousel-caption pb-5 d-block d-md-block">
+                <p class="text-secondary d-none d-md-block fs-6 fst-italic">
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                </p>
+                <div class="row pb-3 pt-2 d-none d-md-flex">
+                  <div class="col-2"></div>
+                  <div class="col-8 border-bottom border-dark"></div>
+                  <div class="col-2"></div>
+                </div>
+                <p class="text-dark fs-6">Hanna Kumy</p>
+                <p class="text-secondary fs-6">Developer</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg
+                class=""
+                width="100%"
+                height="80vmin"
+                role="img"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <rect
+                  width="100%"
+                  height="100%"
+                  fill="rgb(250,250,250)"
+                  style="border-radius: 100%"
+                ></rect>
+                <text
+                  class="h1 text-center"
+                  x="50%"
+                  y="10%"
+                  text-anchor="middle"
+                  dominant-baseline="middle"
+                >
+                  Testimonial
+                </text>
+                <foreignObject
+                  width="100%"
+                  height="60%"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <div
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    "
+                  >
+                    <img
+                      src="./img/testimonial-3.jpg"
+                      style="width: 20vmin; height: 20vmin; border-radius: 100%"
+                    />
+                  </div>
+                </foreignObject>
+              </svg>
+              <div class="carousel-caption pb-5">
+                <p class="text-secondary d-none d-md-block fs-6 fst-italic">
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                </p>
+                <div class="row pb-3 pt-2 d-none d-md-flex">
+                  <div class="col-2"></div>
+                  <div class="col-8 border-bottom border-dark"></div>
+                  <div class="col-2"></div>
+                </div>
+                <p class="text-dark fs-6">Hanna Kanata</p>
+                <p class="text-secondary fs-6">Developer</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="work-together pt-5 row p-2">
+        <div class="col-12 mb-5">
+          <div class="row">
+            <h1 class="col-8 col-sm-10 p-0">Let's Work Together</h1>
+            <button type="button" class="col-4 col-sm-2 btn btn-primary">
+              Say Hello
+            </button>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <label class="text-secondary">My office:</label><br />
+              <h2 class="h2 pt-2 pb-2">123 Street, New York, USA</h2>
+              <div class="border border-bottom"></div>
+              <label class="text-secondary pt-3">Callme:</label><br />
+              <h2 class="h2 pt-2 pb-2">+012 345 6789</h2>
+              <div class="border border-bottom"></div>
+              <label class="text-secondary pt-3">Mailme:</label><br />
+              <h2 class="h2 pt-2 pb-2">info@example.com</h2>
+              <div class="border border-bottom"></div>
+              <label class="text-secondary pt-3 pb-3">Follow me:</label><br />
+              <div class="row justify-content-between w-50 pb-5">
+                <div class="col-3 col-lg-2 btn btn-primary">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="col-3 col-lg-2 btn btn-primary">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="col-3 col-lg-2 btn btn-primary">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="col-3 col-lg-2 btn btn-primary">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="row">
+                <span class="col-12 text-secondary p-0"
+                  >Stet lorem dolor diam amet vero eos. No stet est diam amet
+                  diam ipsum. Clita dolor duo clita sit sed dolor eos. Stet
+                  lorem dolor diam amet vero eos. No stet est diam amet diam
+                  ipsum. Clita dolor duo clita sit sed.
+                  <a href="/">Download Now...</a></span
+                >
+                <div class="col-12 pt-3 pb-3">
+                  <div class="row">
+                    <input
+                      class="col-6 col-md-6 p-2 border border-light-subtle"
+                      type="text"
+                      placeholder="Your Name"
+                    />
+                    <input
+                      class="col-6 col-md-6 p-2 border border-light-subtle"
+                      type="text"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                </div>
+                <input
+                  class="col-12 mb-3 p-2 form-control"
+                  type="text"
+                  placeholder="Subject"
+                />
+                <br />
+                <textarea
+                  class="col-12 form-control"
+                  rows="4"
+                  cols="50"
+                  placeholder="Message"
+                ></textarea>
+                <div class="col-12 mt-3">
+                  <div class="row">
+                    <button class="col-4 col-md-3 btn btn-primary">
+                      <div>Send Message</div>
+                    </button>
+                    <p class="col-8 col-md-9 h1 text-white">Dummy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
