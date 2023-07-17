@@ -1,640 +1,861 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="play-button.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b25957ae4f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="main.js"></script> -->
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="play-button.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/b25957ae4f.js" crossorigin="anonymous"></script>
-  <!-- <script src="main.js"></script> -->
-</head>
-
-<body>
-  <!--Page 1-->
-  <div class="container-sm container container-lg container-md page-1">
-    <div class="header row bg-light ">
-      <div class="text-header my-5 col-12 col-sm-12 col-lg-6">
-        <div class="row">
-          <div class="col-12">
-            <p class="fs-3 fw-semibold mb-0">I'm</p>
-            <h1 class="fw-bold display-3">Kate Winslet</h1>
-            <p class="fs-3 fw-semibold mb-5">Apps D</p>
+  <body>
+    <!--Page 1-->
+    <div class="container-sm container container-lg container-md page-1">
+      <div class="header row bg-light">
+        <div class="text-header my-5 col-12 col-sm-12 col-lg-6">
+          <div class="row">
+            <div class="col-12">
+              <p class="fs-3 fw-semibold mb-0">I'm</p>
+              <h1 class="fw-bold display-3">Kate Winslet</h1>
+              <p class="fs-3 fw-semibold mb-5">Apps D</p>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class=" col-6 col-sm-6 col-md-6 col-lg-4 ">
-            <button id="download-cv-btn" class="btn btn-primary btn-lg fs-6 ">Download CV</button>
-          </div>
-          <div class=" col-sm-6 col-6 col-md-6 col-lg-8">
-            <div class="row">
-              <div class="col-4 col-md-3 col-lg-2 ">
-                <button class="play-btn btn btn-primary btn-lg rounded-circle "><i class="fas fa-play"></i></button>
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+              <button id="download-cv-btn" class="btn btn-primary btn-lg fs-6">
+                Download CV
+              </button>
+            </div>
+            <div class="col-sm-6 col-6 col-md-6 col-lg-8">
+              <div class="row">
+                <div class="col-4 col-md-3 col-lg-2">
+                  <button
+                    class="play-btn btn btn-primary btn-lg rounded-circle"
+                  >
+                    <i class="fas fa-play"></i>
+                  </button>
+                </div>
+                <div class="col-8 col-md-9 col-lg-10 d-flex align-items-center">
+                  <span class="fs-6 fw-medium">Play Video</span>
+                </div>
               </div>
-              <div class="col-8 col-md-9 col-lg-10 d-flex align-items-center ">
-                <span class="fs-6 fw-medium">Play
-                  Video</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-sm-12">
+          <img
+            src="img/profile2.png"
+            alt="image-header"
+            width="800rem"
+            height="800rem"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <div class="overview-exp row">
+        <div class="mt-5 time-work col-12 col-sm-12 col-lg-6">
+          <div class="header-time-overview row d-flex">
+            <div class="col-6 col-sm-3 col-lg-4 col-xl-3">
+              <h1 style="font-size: 8rem" class="display-1 fw-bold mb-0 mr-0">
+                15
+              </h1>
+              <p class="fs-4" style="letter-spacing: 1.7rem">Years</p>
+            </div>
+            <div
+              class="flex-grow-1 d-flex align-items-center col-6 col-sm-9 col-lg-8 col-xl-9"
+            >
+              <p class="fs-3">
+                of working experience as a web designer & developer
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="content-time-overview col-12 text-start mb-4 text-light-emphasis"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              atcorporis amet dolor exercitationem laboriosam adipisci sed
+              consectetur nam recusandae, nisi, distinctio cumque obcaecati
+              possimus deleniti ab eius mollitia optio.
+            </div>
+          </div>
+          <div class="benefit row">
+            <div class="col">
+              <ul class="list-group text-light-emphasis">
+                <li class="list-group-item border-0 p-0 mb-3">
+                  <span
+                    ><i class="fa-regular fa-circle-check text-primary"></i
+                  ></span>
+                  <span class="mx-3">Affordable Prices</span>
+                </li>
+                <li class="list-group-item border-0 p-0 mb-3">
+                  <span
+                    ><i class="fa-regular fa-circle-check text-primary"></i
+                  ></span>
+                  <span class="mx-3">High Quality Product</span>
+                </li>
+                <li class="list-group-item border-0 p-0 mb-3">
+                  <span
+                    ><i class="fa-regular fa-circle-check text-primary"></i
+                  ></span>
+                  <span class="mx-3">On Time Project Delivery</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                id="readmore-btn-overview"
+                class="btn btn-primary"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5 about-work col-12 col-lg-6 col-sm-12">
+          <div class="img-overview-contain row">
+            <div class="col-lg-6 col-sm-6 col-6">
+              <img
+                src="img/about-1.jpg"
+                alt="about-1"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-lg-6 col-sm-6 col-6">
+              <img
+                src="img/about-2.jpg"
+                alt="about-2"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+          <div class="text-about row">
+            <div class="text-client text-about-content col-12 mt-4">
+              <span class="title-text-about fs-5 fw-semibold"
+                >Happy Clients</span
+              >
+              <div class="vr mx-3"></div>
+              <span class="number-text-about fs-3 fw-bold text-primary"
+                >1234</span
+              >
+
+              <p class="mt-3 text-light-emphasis">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                quam esse dignissimos consequuntur nesciunt atque dolores
+                necessitatibus.
+              </p>
+            </div>
+            <div class="text-project text-about-content col-12">
+              <span class="title-text-about fs-5 fw-semibold"
+                >Projects Completed</span
+              >
+              <div class="vr mx-3"></div>
+              <span class="number-text-about fs-3 fw-bold text-primary"
+                >1234</span
+              >
+              <p class="mt-3 text-light-emphasis">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                quam esse dignissimos consequuntur nesciunt atque dolores
+                necessitatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-and-exp row">
+        <div class="skill-contain mt-5 col-12 col-lg-6 col-sm-12">
+          <div class="row">
+            <div class="col-12">
+              <h1>Skills & Experience</h1>
+              <p class="mt-4 text-light-emphasis">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi, inventore veniam et laborum sunt excepturi iusto
+                molestias similique, perferendis ut molestiae libero, dolorum
+                fugit. Dignissimos cumque atque quidem eius quas!
+              </p>
+            </div>
+          </div>
+          <div class="my-skills-contain row mt-2">
+            <div class="col">
+              <h2>My Skills</h2>
+              <div class="table-responsive">
+                <table class="my-skills-table table table-borderless fw-medium">
+                  <tr>
+                    <td class="w-50">
+                      <div class="skill-1">
+                        <div class="skill-header">
+                          <span>HTML</span><span class="float-end">95%</span>
+                        </div>
+                        <div
+                          class="progress mt-2"
+                          role="progressbar"
+                          style="height: 5px"
+                        >
+                          <div class="progress-bar" style="width: 95%"></div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="w-50">
+                      <div class="skill-1">
+                        <div class="skill-header">
+                          <span>JavaScript</span
+                          ><span class="float-end">90%</span>
+                        </div>
+                        <div
+                          class="progress mt-2"
+                          role="progressbar"
+                          style="height: 5px"
+                        >
+                          <div
+                            class="progress-bar bg-danger"
+                            style="width: 90%"
+                          ></div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="skill-1">
+                        <div class="skill-header">
+                          <span>CSS</span><span class="float-end">85%</span>
+                        </div>
+                        <div
+                          class="progress mt-2"
+                          role="progressbar"
+                          style="height: 5px"
+                        >
+                          <div
+                            class="progress-bar bg-warning"
+                            style="width: 85%"
+                          ></div>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="skill-1">
+                        <div class="skill-header">
+                          <span>Angular JS</span
+                          ><span class="float-end">95%</span>
+                        </div>
+                        <div
+                          class="progress mt-2"
+                          role="progressbar"
+                          style="height: 5px"
+                        >
+                          <div
+                            class="progress-bar bg-dark"
+                            style="width: 95%"
+                          ></div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
         </div>
-
-      </div>
-      <div class="col-12 col-lg-6 col-sm-12">
-        <img src="img/profile2.png" alt="image-header" width="800rem" height="800rem" class="img-fluid">
-      </div>
-    </div>
-    <div class="overview-exp row ">
-      <div class="mt-5 time-work col-12 col-sm-12 col-lg-6">
-        <div class="header-time-overview row d-flex">
-          <div class="col-6 col-sm-3 col-lg-4 col-xl-3">
-            <h1 style="font-size: 8rem;" class="display-1 fw-bold mb-0 mr-0">
-              15
-            </h1>
-            <p class="fs-4" style="letter-spacing: 1.7rem;">Years</p>
-          </div>
-          <div class="flex-grow-1 d-flex align-items-center col-6 col-sm-9 col-lg-8 col-xl-9">
-            <p class="fs-3"> of working experience as a web designer & developer</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class=" content-time-overview col-12 text-start mb-4 text-light-emphasis">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam atcorporis amet dolor
-            exercitationem laboriosam adipisci sed consectetur nam recusandae, nisi, distinctio cumque
-            obcaecati possimus deleniti ab eius mollitia optio.
-          </div>
-        </div>
-        <div class="benefit row">
-          <div class="col">
-            <ul class="list-group text-light-emphasis">
-              <li class="list-group-item border-0 p-0 mb-3 ">
-                <span><i class="fa-regular fa-circle-check text-primary"></i></span>
-                <span class="mx-3">Affordable Prices</span>
-              </li>
-              <li class="list-group-item border-0 p-0 mb-3">
-                <span><i class="fa-regular fa-circle-check text-primary"></i></span>
-                <span class="mx-3">High Quality Product</span>
-              </li>
-              <li class="list-group-item border-0 p-0 mb-3">
-                <span><i class=" fa-regular fa-circle-check text-primary"></i></span>
-                <span class="mx-3">On Time Project Delivery</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <button type="button" id='readmore-btn-overview' class="btn btn-primary">Read More</button>
-          </div>
-        </div>
-      </div>
-      <div class=" mt-5 about-work col-12 col-lg-6 col-sm-12">
-        <div class="img-overview-contain row">
-          <div class="col-lg-6 col-sm-6 col-6">
-            <img src="img/about-1.jpg" alt="about-1" class="img-fluid rounded">
-          </div>
-          <div class="col-lg-6 col-sm-6 col-6">
-            <img src="img/about-2.jpg" alt="about-2" class="img-fluid rounded">
-          </div>
-
-        </div>
-        <div class="text-about row">
-          <div class="text-client text-about-content col-12 mt-4">
-            <span class="title-text-about fs-5 fw-semibold">Happy Clients</span>
-            <div class="vr mx-3"></div><span class="number-text-about fs-3 fw-bold text-primary">1234</span>
-
-            <p class="mt-3 text-light-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Sunt quam esse dignissimos
-              consequuntur nesciunt atque dolores necessitatibus.</p>
-          </div>
-          <div class="text-project text-about-content col-12 ">
-            <span class="title-text-about fs-5 fw-semibold">Projects Completed</span>
-            <div class="vr mx-3"></div><span class="number-text-about fs-3 fw-bold text-primary">1234</span>
-            <p class="mt-3 text-light-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Sunt quam esse dignissimos
-              consequuntur nesciunt atque dolores necessitatibus.</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-    <div class="skill-and-exp row ">
-      <div class="skill-contain mt-5 col-12 col-lg-6 col-sm-12">
-        <div class="row">
+        <div class="exp-and-edu-contain mt-5 col-12 col-lg-6 col-sm-12">
           <div class="col-12">
-            <h1>Skills & Experience</h1>
-            <p class="mt-4 text-light-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Eligendi, inventore veniam et
-              laborum
-              sunt
-              excepturi iusto molestias similique, perferendis ut molestiae libero, dolorum fugit.
-              Dignissimos
-              cumque atque quidem eius quas!</p>
-          </div>
-        </div>
-        <div class="my-skills-contain row mt-2">
-          <div class="col">
-            <h2>My Skills</h2>
-            <div class="table-responsive ">
-              <table class="my-skills-table table table-borderless fw-medium">
-                <tr>
-                  <td class="w-50">
-                    <div class="skill-1">
-                      <div class="skill-header">
-                        <span>HTML</span><span class="float-end">95%</span>
-                      </div>
-                      <div class="progress mt-2" role="progressbar" style="height: 5px">
-                        <div class="progress-bar" style="width: 95%"></div>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="w-50">
-                    <div class="skill-1">
-                      <div class="skill-header">
-                        <span>JavaScript</span><span class="float-end">90%</span>
-                      </div>
-                      <div class="progress mt-2" role="progressbar" style="height: 5px">
-                        <div class="progress-bar bg-danger" style="width: 90%"></div>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div class="skill-1">
-                      <div class="skill-header">
-                        <span>CSS</span><span class="float-end">85%</span>
-                      </div>
-                      <div class="progress mt-2" role="progressbar" style="height: 5px">
-                        <div class="progress-bar bg-warning" style="width: 85%"></div>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="skill-1">
-                      <div class="skill-header">
-                        <span>Angular JS</span><span class="float-end">95%</span>
-                      </div>
-                      <div class="progress mt-2" role="progressbar" style="height: 5px">
-                        <div class="progress-bar bg-dark" style="width: 95%"></div>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-              </table>
+            <div class="exp-and-edu-header">
+              <div
+                class="col-12 btn-group border border-2 border-primary p-0"
+                role="group"
+                aria-label="Basic radio toggle button group"
+                style="height: 50px"
+              >
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="btnradio"
+                  id="btnradio1"
+                  autocomplete="off"
+                  checked
+                />
+                <label
+                  class="btn btn-outline-primary p-0 border-0 d-flex align-items-center justify-content-center fs-5 rounded-3"
+                  for="btnradio1"
+                  >Experience</label
+                >
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="btnradio"
+                  id="btnradio2"
+                  autocomplete="off"
+                />
+                <label
+                  class="btn btn-outline-primary p-0 border-0 d-flex align-items-center justify-content-center fs-5 rounded-3"
+                  for="btnradio2"
+                  >Education</label
+                >
+              </div>
             </div>
           </div>
-        </div>
-
-      </div>
-      <div class="exp-and-edu-contain mt-5 col-12 col-lg-6 col-sm-12">
-        <div class="col-12">
-          <div class="exp-and-edu-header">
-            <div class="col-12 btn-group border border-2 border-primary p-0" role="group"
-              aria-label="Basic radio toggle button group" style="height: 50px;">
-              <input type="radio" class="btn-check " name="btnradio" id="btnradio1" autocomplete="off" checked>
-              <label
-                class="btn btn-outline-primary p-0 border-0 d-flex align-items-center justify-content-center fs-5 rounded-3"
-                for="btnradio1">Experience</label>
-              <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-              <label
-                class="btn btn-outline-primary p-0 border-0 d-flex align-items-center justify-content-center fs-5 rounded-3"
-                for="btnradio2">Education</label>
-
-            </div>
+          <div class="table-responsive">
+            <table class="exp-table table table-borderless mt-4">
+              <tr>
+                <td class="w-50">
+                  <div class="exp-des1">
+                    <p class="job-des fs-5 fw-medium m-0">UI Designer</p>
+                    <hr class="w-25" />
+                    <p class="time-des text-primary m-0">2000 - 2045</p>
+                    <p class="company-des fw-medium my-2">Apex Software Inc</p>
+                  </div>
+                </td>
+                <td class="w-50">
+                  <div class="exp-des1 flex-nowrap">
+                    <p class="job-des fs-5 fw-medium m-0 d-flex">
+                      Product Designer
+                    </p>
+                    <hr class="w-25" />
+                    <p class="time-des text-primary m-0">2000 - 2045</p>
+                    <p class="company-des fw-medium my-2">Apex Software Inc</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="exp-des1">
+                    <p class="job-des fs-5 fw-medium m-0">Web Designer</p>
+                    <hr class="w-25" />
+                    <p class="time-des text-primary m-0">2000 - 2045</p>
+                    <p class="company-des fw-medium my-2">Apex Software Inc</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="exp-des1">
+                    <p class="job-des fs-5 fw-medium m-0">Apps Designer</p>
+                    <hr class="w-25" />
+                    <p class="time-des text-primary m-0">2000 - 2045</p>
+                    <p class="company-des fw-medium my-2">Apex Software Inc</p>
+                  </div>
+                </td>
+              </tr>
+            </table>
           </div>
-        </div>
-        <div class="table-responsive">
-          <table class="exp-table table table-borderless mt-4">
+          <table class="edu-table table" style="display: none">
             <tr>
-              <td class="w-50">
+              <td>
                 <div class="exp-des1">
-                  <p class="job-des fs-5 fw-medium m-0">UI Designer</p>
-                  <hr class="w-25">
-                  <p class="time-des text-primary m-0">2000 - 2045</p>
-                  <p class="company-des fw-medium my-2">Apex Software Inc</p>
+                  <p class="job-des">Hanoi University</p>
+                  <hr class="line-exp-des" />
+                  <p class="time-des">2020 - 2024</p>
+                  <p class="company-des">Sofware Engineer</p>
                 </div>
               </td>
-              <td class="w-50">
-                <div class="exp-des1 flex-nowrap">
-                  <p class="job-des fs-5 fw-medium m-0 d-flex">Product Designer</p>
-                  <hr class="w-25">
-                  <p class="time-des text-primary m-0">2000 - 2045</p>
-                  <p class="company-des fw-medium my-2">Apex Software Inc</p>
+              <td>
+                <div class="exp-des1">
+                  <p class="job-des">Training Time</p>
+                  <hr class="line-exp-des" />
+                  <p class="time-des">2024 - 2025</p>
+                  <p class="company-des">Frontend Developer</p>
                 </div>
               </td>
             </tr>
             <tr>
               <td>
                 <div class="exp-des1">
-                  <p class="job-des fs-5 fw-medium m-0">Web Designer</p>
-                  <hr class="w-25">
-                  <p class="time-des text-primary m-0">2000 - 2045</p>
-                  <p class="company-des fw-medium my-2">Apex Software Inc</p>
+                  <p class="job-des">Training Time 2</p>
+                  <hr class="line-exp-des" />
+                  <p class="time-des">2024 - 2025</p>
+                  <p class="company-des">Backend Developer</p>
                 </div>
               </td>
               <td>
                 <div class="exp-des1">
-                  <p class="job-des fs-5 fw-medium m-0">Apps Designer</p>
-                  <hr class="w-25">
-                  <p class="time-des text-primary m-0">2000 - 2045</p>
-                  <p class="company-des fw-medium my-2">Apex Software Inc</p>
+                  <p class="job-des">Training Time 3</p>
+                  <hr class="line-exp-des" />
+                  <p class="time-des">2024 - 2025</p>
+                  <p class="company-des">Fullstack Web</p>
                 </div>
               </td>
             </tr>
           </table>
         </div>
-        <table class="edu-table table" style="display:none;">
-          <tr>
-            <td>
-              <div class="exp-des1">
-                <p class="job-des">Hanoi University</p>
-                <hr class="line-exp-des">
-                <p class="time-des">2020 - 2024</p>
-                <p class="company-des">Sofware Engineer</p>
-              </div>
-            </td>
-            <td>
-              <div class="exp-des1">
-                <p class="job-des">Training Time</p>
-                <hr class="line-exp-des">
-                <p class="time-des">2024 - 2025</p>
-                <p class="company-des">Frontend Developer</p>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div class="exp-des1">
-                <p class="job-des">Training Time 2</p>
-                <hr class="line-exp-des">
-                <p class="time-des">2024 - 2025</p>
-                <p class="company-des">Backend Developer</p>
-              </div>
-            </td>
-            <td>
-              <div class="exp-des1">
-                <p class="job-des">Training Time 3</p>
-                <hr class="line-exp-des">
-                <p class="time-des">2024 - 2025</p>
-                <p class="company-des">Fullstack Web</p>
-              </div>
-            </td>
-          </tr>
-        </table>
       </div>
-    </div>
-    <div class="row p-5 bg-light">
-      <div class="col">
-        <div class="row align-content-center mb-5">
-          <div class="col-7 p-0">
-            <p class="display-5 fw-bold">My Services</p>
-          </div>
-          <div class="col-5 text-end p-0">
-            <button type="button" class="btn btn-primary">Hire Me</button>
-          </div>
-        </div>
-        <div class="row mb-2">
-          <div class="col-lg bg-white m-2 p-3">
-            <div class="row">
-              <div class="col-4">
-                <img src="image/creative.png" class="img-fluid" alt="creative">
-              </div>
-              <div class="col-8">
-                <h2>Creative Design</h2>
-                <p class="fw-bold">Start from <span class="text-primary fw-normal">$199</span></p>
-                <p class="justify-content-center text-secondary">Stet lorem dolor diam amet vero eos. No stet est diam
-                  amet
-                  diam ipsum. Clita dolor duo clita sit sed dolor eos.</p>
-              </div>
+      <div class="row p-5 bg-light">
+        <div class="col">
+          <div class="row align-content-center mb-5">
+            <div class="col-7 p-0">
+              <p class="display-5 fw-bold">My Services</p>
+            </div>
+            <div class="col-5 text-end p-0">
+              <button type="button" class="btn btn-primary">Hire Me</button>
             </div>
           </div>
-          <div class="col-lg bg-white m-2 p-3">
-            <div class="row">
-              <div class="col-4">
-                <img src="image/graphic.png" class="img-fluid" alt="creative">
-              </div>
-              <div class="col-8">
-                <h2>Creative</h2>
-                <p class="fw-bold">Start from <span class="text-primary fw-normal">$199</span></p>
-                <p class="justify-content-center text-secondary">Stet lorem dolor diam amet vero eos. No stet est diam
-                  amet
-                  diam ipsum. Clita dolor duo clita sit sed dolor eos.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2">
-          <div class="col-lg bg-white m-2 p-3">
-            <div class="row">
-              <div class="col-4">
-                <img src="image/wed.png" class="img-fluid" alt="creative">
-              </div>
-              <div class="col-8">
-                <h2>Creative</h2>
-                <p class="fw-bold">Start from <span class="text-primary fw-normal">$199</span></p>
-                <p class="justify-content-center text-secondary">Stet lorem dolor diam amet vero eos. No stet est diam
-                  amet
-                  diam ipsum. Clita dolor duo clita sit sed dolor eos.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg bg-white m-2 p-3">
-            <div class="row">
-              <div class="col-4">
-                <img src="image/uiux.png" class="img-fluid" alt="creative">
-              </div>
-              <div class="col-8">
-                <h2>Creative</h2>
-                <p class="fw-bold">Start from <span class="text-primary fw-normal">$199</span></p>
-                <p class="justify-content-center text-secondary">Stet lorem dolor diam amet vero eos. No stet est diam
-                  amet
-                  diam ipsum. Clita dolor duo clita sit sed dolor eos.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row px-5 mt-5">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-          <p class="display-5 fw-bold"> My Projects</p>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active text-primary border-bottom border-primary p-0 m-1" aria-current="page"
-                href="#">All Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link p-0 m-1" href="#">UI/UX Design</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link p-0 m-1" href="#">Graphic Design</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <div class="row px-5 mt-3">
-      <div class="col">
-        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
-          <div class="col p-2 ">
-            <img src="image/project-1.jpg" class="img-fluid rounded" alt="" />
-          </div>
-          <div class="col p-2 ">
-            <img src="image/project-2.jpg" class="img-fluid rounded" alt="" />
-          </div>
-          <div class="col p-2 ">
-            <img src="image/project-3.jpg" class="img-fluid rounded" alt="" />
-          </div>
-          <div class="col p-2 ">
-            <img src="image/project-4.jpg" class="img-fluid rounded" alt="" />
-          </div>
-          <div class="col p-2 ">
-            <img src="image/project-5.jpg" class="img-fluid rounded" alt="" />
-          </div>
-          <div class="col p-2 ">
-            <img src="image/project-6.jpg" class="img-fluid rounded" alt="" />
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="team-info my-5 row p-2">
-      <div class="col-12 ">
-        <div class="row justify-content-between mb-5">
-          <h1 class=" col-7 p-0">Team members</h1>
-          <div class=" col-5 p-0">
-            <button type="button" class="float-end btn btn-primary">
-              Contact Us
-            </button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg col-12 col-md p-2">
-            <img class="img-fluid rounded" src="./img/team-1.jpg" />
-          </div>
-          <div class="col-lg col-12 col-md p-2">
-            <img class="img-fluid rounded" src="./img/team-2.jpg" />
-          </div>
-          <div class="col-lg col-12 col-md p-2">
-            <img class="img-fluid rounded" src="./img/team-3.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial pt-5 mb-5">
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators pb-2">
-          <button type="button" data-bs-slide-to="0" aria-current="true"
-            class="btn btn-warning rounded-circle active p-2 m-1"></button>
-          <button type="button" data-bs-slide-to="1" class="btn btn-warning rounded-circle p-2 m-1"></button>
-          <button type="button" data-bs-slide-to="2" class="btn btn-warning rounded-circle p-2 m-1"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <svg class="" width="100%" height="80vmin" role="img" preserveAspectRatio="xMidYMid slice"
-              focusable="false">
-              <rect width="100%" height="100%" fill="rgb(250,250,250)" style="border-radius: 100%"></rect>
-              <text class="h1 text-center" x="50%" y="10%" text-anchor="middle" dominant-baseline="middle">
-                Testimonial
-              </text>
-              <foreignObject width="100%" height="60%" style="
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                ">
-                <div style="
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                  ">
-                  <img src="./img/testimonial-1.jpg" style="width: 20vmin; height: 20vmin; border-radius: 100%" />
+          <div class="row mb-2">
+            <div class="col-lg bg-white m-2 p-3">
+              <div class="row">
+                <div class="col-4">
+                  <img
+                    src="image/creative.png"
+                    class="img-fluid"
+                    alt="creative"
+                  />
                 </div>
-              </foreignObject>
-            </svg>
-            <div class="carousel-caption pb-5 d-block d-md-block">
-              <p class="text-secondary d-none d-md-block fs-6 fst-italic">
-                Some representative placeholder content for the first slide.
-                Some representative placeholder content for the first slide.
-                Some representative placeholder content for the first slide.
-                Some representative placeholder content for the first slide.
-              </p>
-              <div class="row pb-3 pt-2 d-none d-md-flex">
-                <div class="col-2"></div>
-                <div class="col-8 border-bottom border-dark"></div>
-                <div class="col-2"></div>
+                <div class="col-8">
+                  <h2>Creative Design</h2>
+                  <p class="fw-bold">
+                    Start from <span class="text-primary fw-normal">$199</span>
+                  </p>
+                  <p class="justify-content-center text-secondary">
+                    Stet lorem dolor diam amet vero eos. No stet est diam amet
+                    diam ipsum. Clita dolor duo clita sit sed dolor eos.
+                  </p>
+                </div>
               </div>
-              <p class="text-dark fs-6">Hanna Anna</p>
-              <p class="text-secondary fs-6">Developer</p>
+            </div>
+            <div class="col-lg bg-white m-2 p-3">
+              <div class="row">
+                <div class="col-4">
+                  <img
+                    src="image/graphic.png"
+                    class="img-fluid"
+                    alt="creative"
+                  />
+                </div>
+                <div class="col-8">
+                  <h2>Creative</h2>
+                  <p class="fw-bold">
+                    Start from <span class="text-primary fw-normal">$199</span>
+                  </p>
+                  <p class="justify-content-center text-secondary">
+                    Stet lorem dolor diam amet vero eos. No stet est diam amet
+                    diam ipsum. Clita dolor duo clita sit sed dolor eos.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <svg class="" width="100%" height="80vmin" role="img" preserveAspectRatio="xMidYMid slice"
-              focusable="false">
-              <rect width="100%" height="100%" fill="rgb(250,250,250)" style="border-radius: 100%"></rect>
-              <text class="h1 text-center" x="50%" y="10%" text-anchor="middle" dominant-baseline="middle">
-                Testimonial
-              </text>
-              <foreignObject width="100%" height="60%" style="
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                ">
-                <div style="
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                  ">
-                  <img src="./img/testimonial-2.jpg" style="width: 20vmin; height: 20vmin; border-radius: 100%" />
+          <div class="row mb-2">
+            <div class="col-lg bg-white m-2 p-3">
+              <div class="row">
+                <div class="col-4">
+                  <img src="image/wed.png" class="img-fluid" alt="creative" />
                 </div>
-              </foreignObject>
-            </svg>
-            <div class="carousel-caption pb-5 d-block d-md-block">
-              <p class="text-secondary d-none d-md-block fs-6 fst-italic">
-                Some representative placeholder content for the first slide.
-                Some representative placeholder content for the first slide.
-                Some representative placeholder content for the first slide.
-                Some representative placeholder content for the first slide.
-              </p>
-              <div class="row pb-3 pt-2 d-none d-md-flex">
-                <div class="col-2"></div>
-                <div class="col-8 border-bottom border-dark"></div>
-                <div class="col-2"></div>
+                <div class="col-8">
+                  <h2>Creative</h2>
+                  <p class="fw-bold">
+                    Start from <span class="text-primary fw-normal">$199</span>
+                  </p>
+                  <p class="justify-content-center text-secondary">
+                    Stet lorem dolor diam amet vero eos. No stet est diam amet
+                    diam ipsum. Clita dolor duo clita sit sed dolor eos.
+                  </p>
+                </div>
               </div>
-              <p class="text-dark fs-6">Hanna Kumy</p>
-              <p class="text-secondary fs-6">Developer</p>
             </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="" width="100%" height="80vmin" role="img" preserveAspectRatio="xMidYMid slice"
-              focusable="false">
-              <rect width="100%" height="100%" fill="rgb(250,250,250)" style="border-radius: 100%"></rect>
-              <text class="h1 text-center" x="50%" y="10%" text-anchor="middle" dominant-baseline="middle">
-                Testimonial
-              </text>
-              <foreignObject width="100%" height="60%" style="
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                ">
-                <div style="
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                  ">
-                  <img src="./img/testimonial-3.jpg" style="width: 20vmin; height: 20vmin; border-radius: 100%" />
+            <div class="col-lg bg-white m-2 p-3">
+              <div class="row">
+                <div class="col-4">
+                  <img src="image/uiux.png" class="img-fluid" alt="creative" />
                 </div>
-              </foreignObject>
-            </svg>
-            <div class="carousel-caption pb-5">
-              <p class="text-secondary d-none d-md-block fs-6 fst-italic">
-                Some representative placeholder content for the first slide.
-                Some representative placeholder content for the first slide.
-                Some representative placeholder content for the first slide.
-                Some representative placeholder content for the first slide.
-              </p>
-              <div class="row pb-3 pt-2 d-none d-md-flex">
-                <div class="col-2"></div>
-                <div class="col-8 border-bottom border-dark"></div>
-                <div class="col-2"></div>
+                <div class="col-8">
+                  <h2>Creative</h2>
+                  <p class="fw-bold">
+                    Start from <span class="text-primary fw-normal">$199</span>
+                  </p>
+                  <p class="justify-content-center text-secondary">
+                    Stet lorem dolor diam amet vero eos. No stet est diam amet
+                    diam ipsum. Clita dolor duo clita sit sed dolor eos.
+                  </p>
+                </div>
               </div>
-              <p class="text-dark fs-6">Hanna Kanata</p>
-              <p class="text-secondary fs-6">Developer</p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-    <div class="work-together pt-5 row p-2">
-      <div class="col-12 mb-5">
-        <div class="row">
-          <h1 class="col-7 p-0">Let's Work Together</h1>
-          <div class="col-5 p-0">
-            <button type="button" class="float-end btn btn-primary">
-              Say Hello
-            </button>
+      <div class="row px-5 mt-5">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <p class="display-5 fw-bold">My Projects</p>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-primary border-bottom border-primary p-0 m-1"
+                  aria-current="page"
+                  href="#"
+                  >All Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 m-1" href="#">UI/UX Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 m-1" href="#">Graphic Design</a>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <label class="text-secondary">My office:</label><br />
-            <h2 class="h2 pt-2 pb-2">123 Street, New York, USA</h2>
-            <div class="border border-bottom"></div>
-            <label class="text-secondary pt-3">Callme:</label><br />
-            <h2 class="h2 pt-2 pb-2">+012 345 6789</h2>
-            <div class="border border-bottom"></div>
-            <label class="text-secondary pt-3">Mailme:</label><br />
-            <h2 class="h2 pt-2 pb-2">info@example.com</h2>
-            <div class="border border-bottom"></div>
-            <label class="text-secondary pt-3 pb-3">Follow me:</label><br />
-            <div class="row justify-content-between w-50 pb-5">
-              <div class="col-3 col-lg-2 btn btn-primary">
-                <i class="fa-brands fa-twitter"></i>
-              </div>
-              <div class="col-3 col-lg-2 btn btn-primary">
-                <i class="fa-brands fa-facebook-f"></i>
-              </div>
-              <div class="col-3 col-lg-2 btn btn-primary">
-                <i class="fa-brands fa-youtube"></i>
-              </div>
-              <div class="col-3 col-lg-2 btn btn-primary">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </div>
+        </nav>
+      </div>
+      <div class="row px-5 mt-3">
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col p-2">
+              <img src="image/project-1.jpg" class="img-fluid rounded" alt="" />
+            </div>
+            <div class="col p-2">
+              <img src="image/project-2.jpg" class="img-fluid rounded" alt="" />
+            </div>
+            <div class="col p-2">
+              <img src="image/project-3.jpg" class="img-fluid rounded" alt="" />
+            </div>
+            <div class="col p-2">
+              <img src="image/project-4.jpg" class="img-fluid rounded" alt="" />
+            </div>
+            <div class="col p-2">
+              <img src="image/project-5.jpg" class="img-fluid rounded" alt="" />
+            </div>
+            <div class="col p-2">
+              <img src="image/project-6.jpg" class="img-fluid rounded" alt="" />
             </div>
           </div>
-          <div class="col-12 col-lg-6">
-            <div class="row">
-              <span class="col-12 text-secondary p-0">Stet lorem dolor diam amet vero eos. No stet est diam amet
-                diam ipsum. Clita dolor duo clita sit sed dolor eos. Stet
-                lorem dolor diam amet vero eos. No stet est diam amet diam
-                ipsum. Clita dolor duo clita sit sed.
-                <a href="/">Download Now...</a></span>
-              <div class="col-12 pt-3 pb-3">
-                <div class="row">
-                  <div class="col-lg me-lg-2 mb-2 mb-lg-0 p-0">
-                    <input class="border border-light-subtle w-100 p-2" type="text" placeholder="Your Name" />
+        </div>
+      </div>
+      <div class="team-info my-5 row p-2">
+        <div class="col-12">
+          <div class="row justify-content-between mb-5">
+            <h1 class="col-7 p-0">Team members</h1>
+            <div class="col-5 p-0">
+              <button type="button" class="float-end btn btn-primary">
+                Contact Us
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg col-12 col-md p-2">
+              <img class="img-fluid rounded" src="./img/team-1.jpg" />
+            </div>
+            <div class="col-lg col-12 col-md p-2">
+              <img class="img-fluid rounded" src="./img/team-2.jpg" />
+            </div>
+            <div class="col-lg col-12 col-md p-2">
+              <img class="img-fluid rounded" src="./img/team-3.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial pt-5 mb-5">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators pb-2">
+            <button
+              type="button"
+              data-bs-slide-to="0"
+              aria-current="true"
+              class="btn btn-warning rounded-circle active p-2 m-1"
+            ></button>
+            <button
+              type="button"
+              data-bs-slide-to="1"
+              class="btn btn-warning rounded-circle p-2 m-1"
+            ></button>
+            <button
+              type="button"
+              data-bs-slide-to="2"
+              class="btn btn-warning rounded-circle p-2 m-1"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <svg
+                class=""
+                width="100%"
+                height="80vmin"
+                role="img"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <rect
+                  width="100%"
+                  height="100%"
+                  fill="rgb(250,250,250)"
+                ></rect>
+                <text
+                  class="h1 text-center"
+                  x="50%"
+                  y="10%"
+                  text-anchor="middle"
+                  dominant-baseline="middle"
+                >
+                  Testimonial
+                </text>
+                <foreignObject
+                  width="100%"
+                  height="60%"
+                  class="d-flex align-items-center justify-content-center"
+                >
+                  <div
+                    class="d-flex align-items-center justify-content-center"
+                    style="width: 100%; height: 100%"
+                  >
+                    <img
+                      src="./img/testimonial-1.jpg"
+                      class="rounded-circle"
+                      style="width: 20vmin; height: 20vmin"
+                    />
                   </div>
-                  <div class="col-lg ms-lg-2 mt-2 mt-lg-0 p-0">
-                    <input class=" border border-light-subtle w-100 p-2" type="text" placeholder="Your Email" />
+                </foreignObject>
+              </svg>
+              <div class="carousel-caption pb-5 d-block d-md-block">
+                <p class="text-secondary d-none d-md-block fs-6 fst-italic">
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                </p>
+                <div class="row pb-3 pt-2 d-none d-md-flex">
+                  <div class="col-2"></div>
+                  <div class="col-8 border-bottom border-dark"></div>
+                  <div class="col-2"></div>
+                </div>
+                <p class="text-dark fs-6">Hanna Anna</p>
+                <p class="text-secondary fs-6">Developer</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg
+                class=""
+                width="100%"
+                height="80vmin"
+                role="img"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <rect
+                  width="100%"
+                  height="100%"
+                  fill="rgb(250,250,250)"
+                ></rect>
+                <text
+                  class="h1 text-center"
+                  x="50%"
+                  y="10%"
+                  text-anchor="middle"
+                  dominant-baseline="middle"
+                >
+                  Testimonial
+                </text>
+                <foreignObject
+                  width="100%"
+                  height="60%"
+                  class="d-flex align-items-center justify-content-center"
+                >
+                  <div
+                    class="d-flex align-items-center justify-content-center"
+                    style="width: 100%; height: 100%"
+                  >
+                    <img
+                      src="./img/testimonial-2.jpg"
+                      class="rounded-circle"
+                      style="width: 20vmin; height: 20vmin"
+                    />
                   </div>
+                </foreignObject>
+              </svg>
+              <div class="carousel-caption pb-5 d-block d-md-block">
+                <p class="text-secondary d-none d-md-block fs-6 fst-italic">
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                </p>
+                <div class="row pb-3 pt-2 d-none d-md-flex">
+                  <div class="col-2"></div>
+                  <div class="col-8 border-bottom border-dark"></div>
+                  <div class="col-2"></div>
+                </div>
+                <p class="text-dark fs-6">Hanna Kumy</p>
+                <p class="text-secondary fs-6">Developer</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg
+                class=""
+                width="100%"
+                height="80vmin"
+                role="img"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <rect
+                  width="100%"
+                  height="100%"
+                  fill="rgb(250,250,250)"
+                ></rect>
+                <text
+                  class="h1 text-center"
+                  x="50%"
+                  y="10%"
+                  text-anchor="middle"
+                  dominant-baseline="middle"
+                >
+                  Testimonial
+                </text>
+                <foreignObject
+                  width="100%"
+                  height="60%"
+                  class="d-flex align-items-center justify-content-center"
+                >
+                  <div
+                    class="d-flex align-items-center justify-content-center"
+                    style="width: 100%; height: 100%"
+                  >
+                    <img
+                      src="./img/testimonial-3.jpg"
+                      class="rounded-circle"
+                      style="width: 20vmin; height: 20vmin"
+                    />
+                  </div>
+                </foreignObject>
+              </svg>
+              <div class="carousel-caption pb-5">
+                <p class="text-secondary d-none d-md-block fs-6 fst-italic">
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                  Some representative placeholder content for the first slide.
+                </p>
+                <div class="row pb-3 pt-2 d-none d-md-flex">
+                  <div class="col-2"></div>
+                  <div class="col-8 border-bottom border-dark"></div>
+                  <div class="col-2"></div>
+                </div>
+                <p class="text-dark fs-6">Hanna Kanata</p>
+                <p class="text-secondary fs-6">Developer</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="work-together pt-5 row p-2">
+        <div class="col-12 mb-5">
+          <div class="row">
+            <h1 class="col-7 p-0">Let's Work Together</h1>
+            <div class="col-5 p-0">
+              <button type="button" class="float-end btn btn-primary">
+                Say Hello
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <label class="text-secondary">My office:</label><br />
+              <h2 class="h2 pt-2 pb-2">123 Street, New York, USA</h2>
+              <div class="border border-bottom"></div>
+              <label class="text-secondary pt-3">Callme:</label><br />
+              <h2 class="h2 pt-2 pb-2">+012 345 6789</h2>
+              <div class="border border-bottom"></div>
+              <label class="text-secondary pt-3">Mailme:</label><br />
+              <h2 class="h2 pt-2 pb-2">info@example.com</h2>
+              <div class="border border-bottom"></div>
+              <label class="text-secondary pt-3 pb-3">Follow me:</label><br />
+              <div class="row justify-content-between w-50 pb-5">
+                <div class="col-3 col-lg-2 btn btn-primary">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="col-3 col-lg-2 btn btn-primary">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="col-3 col-lg-2 btn btn-primary">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="col-3 col-lg-2 btn btn-primary">
+                  <i class="fa-brands fa-linkedin-in"></i>
                 </div>
               </div>
-              <input class="col-12 mb-3 p-2 form-control" type="text" placeholder="Subject" />
-              <br />
-              <textarea class="col-12 form-control" rows="4" cols="50" placeholder="Message"></textarea>
-              <div class="col-12 mt-3">
-                <div class="row">
-                  <div class="col p-0">
-                    <button class="btn btn-primary">
-                      Send Message
-                    </button>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="row">
+                <span class="col-12 text-secondary p-0"
+                  >Stet lorem dolor diam amet vero eos. No stet est diam amet
+                  diam ipsum. Clita dolor duo clita sit sed dolor eos. Stet
+                  lorem dolor diam amet vero eos. No stet est diam amet diam
+                  ipsum. Clita dolor duo clita sit sed.
+                  <a href="/">Download Now...</a></span
+                >
+                <div class="col-12 pt-3 pb-3">
+                  <div class="row">
+                    <div class="col-lg me-lg-2 mb-2 mb-lg-0 p-0">
+                      <input
+                        class="border border-light-subtle w-100 p-2"
+                        type="text"
+                        placeholder="Your Name"
+                      />
+                    </div>
+                    <div class="col-lg ms-lg-2 mt-2 mt-lg-0 p-0">
+                      <input
+                        class="border border-light-subtle w-100 p-2"
+                        type="text"
+                        placeholder="Your Email"
+                      />
+                    </div>
                   </div>
-
+                </div>
+                <input
+                  class="col-12 mb-3 p-2 form-control"
+                  type="text"
+                  placeholder="Subject"
+                />
+                <br />
+                <textarea
+                  class="col-12 form-control"
+                  rows="4"
+                  cols="50"
+                  placeholder="Message"
+                ></textarea>
+                <div class="col-12 mt-3">
+                  <div class="row">
+                    <div class="col p-0">
+                      <button class="btn btn-primary">Send Message</button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -642,9 +863,6 @@
         </div>
       </div>
     </div>
-  </div>
-  <!--Page 1-->
-
-</body>
-
+    <!--Page 1-->
+  </body>
 </html>
