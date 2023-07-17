@@ -1,9 +1,10 @@
+/*--Nga--*/
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
-.header {
+#header {
   margin-top: 0;
   width: 100%;
   height: 600px;
@@ -12,45 +13,45 @@ body {
   background-color: #fbfbfd;
 }
 
-.content-header {
+#content-header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12rem;
 }
 
-.text-header {
+#text-header {
   padding-left: 80px;
   padding-top: 80px;
 }
 
-.im {
+#type-im {
   color: #7b64d3;
   font-size: 40px;
   margin: 0;
   font-weight: 600;
 }
 
-#p1 {
+#type-Kate-Winslet {
   margin-top: 15px;
   margin-bottom: 0;
   font-size: 65px;
 }
 
-.type-apps {
+#type-apps {
   margin-top: 25px;
   font-size: 35px;
   margin-bottom: 45px;
   font-weight: 600;
 }
 
-.image-header {
+#image-header {
   width: 600px;
   height: 600px;
   object-fit: cover;
   object-position: 0 100%;
 }
 
-#dl-cv-btn {
+#download-cv-btn {
   cursor: pointer;
   width: 180px;
   height: 75px;
@@ -62,12 +63,12 @@ body {
   font-weight: 600;
 }
 
-#dl-cv-btn:active {
+#download-cv-btn:active {
   box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
   transform: translateY(5px);
 }
 
-.play-btn {
+#play-btn {
   cursor: pointer;
   width: 10vmin;
   height: 10vmin;
@@ -80,7 +81,7 @@ body {
   margin-left: 30px;
 }
 
-.play-btn::after {
+#play-btn::after {
   position: absolute;
   content: "";
   bottom: -1vmin;
@@ -96,7 +97,7 @@ body {
   animation: anim 1.2s linear infinite;
 }
 
-.play-btn::before {
+#play-btn::before {
   position: absolute;
   content: "";
   bottom: -1vmin;
@@ -112,7 +113,7 @@ body {
   animation: anim 1.2s linear 0.8s infinite;
 }
 
-.play-btn:active {
+#play-btn:active {
   box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
   transform: translateY(5px);
 }
@@ -129,14 +130,14 @@ body {
   }
 }
 
-.play-text {
+#play-text {
   font-size: 2.6vmin;
   color: #000000;
   font-weight: 600;
   margin-left: 2vmin;
 }
 
-.content-overview {
+#content-overview {
   margin-top: 100px;
   display: flex;
   gap: 5%;
@@ -144,15 +145,15 @@ body {
   padding-right: 5%;
 }
 
-.header-time-overview {
+#header-time-overview {
   display: flex;
 }
 
-.time-work {
+#time-work {
   width: 100%;
 }
 
-.year-exp {
+#year-exp {
   font-size: 180px;
   margin: 0;
   margin-left: 15px;
@@ -160,7 +161,7 @@ body {
   padding: 0;
 }
 
-.years-label {
+#years-label {
   padding: 0;
   margin-left: 10px;
   margin-top: -20px;
@@ -168,20 +169,20 @@ body {
   font-size: 22px;
 }
 
-.job-exp {
+#job-exp {
   margin-left: -30px;
   padding-top: 40px;
   padding-left: 10px;
   font-size: 28px;
 }
 
-.content-time-overview {
+#content-time-overview {
   font-size: 18px;
   color: gray;
   text-align: justify;
 }
 
-.ul-benefit {
+#ul-benefit {
   list-style: none;
   padding-top: 20px;
   padding-left: 0;
@@ -197,12 +198,12 @@ body {
 .fa-circle-check {
   color: #6245c5;
 }
-#ulb-li {
+.ul-li-benefit {
   display: flex;
   gap: 30px;
 }
 
-.about-work {
+#about-work {
   width: 100%;
 }
 
@@ -210,7 +211,7 @@ body {
   border-radius: 2%;
 }
 
-.img-overview-contain {
+#img-overview-contain {
   display: flex;
   gap: 20px;
 }
@@ -233,7 +234,7 @@ body {
   transform: translateY(5px);
 }
 
-.text-about {
+#text-about {
   width: 100%;
   padding-top: 40px;
 }
@@ -253,7 +254,7 @@ body {
   margin-bottom: 40px;
 }
 
-#w-color {
+.content-achievements-overview {
   color: gray;
   font-size: 16px;
 }
@@ -264,7 +265,7 @@ body {
   font-weight: 600;
 }
 
-.skill-and-exp-contain {
+#skill-and-exp-contain {
   margin-top: 80px;
   display: flex;
   gap: 5%;
@@ -272,38 +273,38 @@ body {
   padding-right: 5%;
 }
 
-.skill-contain {
+#skill-contain {
   width: 100%;
 }
 
-#sw-color {
+#text-color-contain {
   text-align: justify;
   margin-top: 45px;
   color: gray;
 }
 
-.sc-h1 {
+#type-Skills-Experience {
   font-size: 45px;
   margin: 0;
 }
 
-.msc-h2 {
+#type-my-skills {
   font-size: 30px;
   font-weight: 500;
 }
 
-.exp-and-edu-contain {
+#exp-and-edu-contain {
   width: 100%;
 }
 
-.my-skills-table {
+#my-skills-table {
   width: 100%;
   border-collapse: collapse;
   border-style: hidden;
   table-layout: fixed;
 }
 
-#mst {
+.my-skills-border-table {
   border: 30px solid rgb(255, 255, 255);
 }
 
@@ -320,35 +321,35 @@ body {
   border-radius: 30px;
 }
 
-.color-bar1 {
+#color-bar1 {
   width: 95%;
   background-color: #6142bb;
   height: 5px;
   border-radius: 30px;
 }
 
-.color-bar2 {
+#color-bar2 {
   width: 90%;
   background-color: red;
   height: 5px;
   border-radius: 30px;
 }
 
-.color-bar3 {
+#color-bar3 {
   width: 85%;
   background-color: yellow;
   height: 5px;
   border-radius: 30px;
 }
 
-.color-bar4 {
+#color-bar4 {
   width: 95%;
   background-color: black;
   height: 5px;
   border-radius: 30px;
 }
 
-.exp-and-edu-header {
+#exp-and-edu-header {
   display: flex;
   width: 100%;
   height: 50px;
@@ -411,6 +412,9 @@ body {
   background-color: white;
   color: black;
 }
+/*--End Nga--*/
+
+/*--Thịnh--*/
 /* Page 3 */
 .page-3 {
   margin: 5%;
@@ -590,14 +594,17 @@ label {
   font-weight: 600;
 }
 /* Page 3 */
+/*--End Thịnh--*/
+
+/*--Nga--*/
 /* page wed 4*/
-.wed-4 {
+#wed-services {
   background-color: #fbfbfd;
 }
-.my-service-table {
+#my-service-table {
   margin: 0 5%;
 }
-.part-1 {
+#header-services {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -605,24 +612,27 @@ label {
   padding-top: 4%;
 }
 
-.td {
+.td-services {
   background-color: white;
   border: none;
 }
 
-.data-1 {
+.data-services-1 {
   display: flex;
   align-items: center;
   margin: 1%;
 }
 
-.data-2 {
+.data-services-2 {
   margin: 20px;
 }
-.p2 {
+.content-services-color {
   text-align: justify;
   color: gray;
 }
+/*--End Nga--*/
+
+/*--Thịnh--*/
 .img-page2 {
   width: 20%;
   height: 100px;
@@ -681,7 +691,6 @@ label {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  /* Khoảng cách giữa các ảnh */
   margin: 5%;
 }
 
@@ -693,3 +702,4 @@ label {
 .body-page2 {
   margin: 5%;
 }
+/*--End Thịnh--*/
