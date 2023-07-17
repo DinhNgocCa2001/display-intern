@@ -1,0 +1,49 @@
+.page-1 .play-btn {
+    position: relative;
+}
+
+
+.page-1 .play-btn::after {
+    position: absolute;
+    content: '';
+    bottom: -1vmin;
+    top: -1vmin;
+    left: -1vmin;
+    right: -1vmin;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.5vmin solid #6245c5;
+    margin: 0;
+    opacity: 1;
+    transform-origin: center;
+    animation: anim 1.2s linear infinite;
+}
+
+.page-1 .play-btn::before {
+    position: absolute;
+    content: '';
+    bottom: -1vmin;
+    top: -1vmin;
+    left: -1vmin;
+    right: -1vmin;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.5vmin solid #6245c5;
+    margin: 0;
+    opacity: 0.8;
+    transform-origin: center;
+    animation: anim 1.2s linear 0.8s infinite;
+}
+
+
+@keyframes anim {
+    from {
+        margin: 0;
+        opacity: 1;
+    }
+
+    to {
+        margin: -2vmin;
+        opacity: 0;
+    }
+}
