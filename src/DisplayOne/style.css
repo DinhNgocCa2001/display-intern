@@ -691,7 +691,7 @@ label {
   cursor: pointer;
 }
 
-.p-page2:hover {
+.menu-details:hover {
   color: blue;
   text-decoration: underline;
 }
@@ -706,6 +706,7 @@ label {
 .image-myprojects {
   border-radius: 2%;
   width: 100%;
+  height:100%
 }
 
 #margin-myprojects {
