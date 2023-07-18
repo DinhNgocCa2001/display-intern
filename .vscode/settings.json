@@ -3,8 +3,12 @@
         "flickity"
 <<<<<<< HEAD
     ],
+<<<<<<< HEAD
+    "liveServer.settings.port": 5502
+=======
     "liveServer.settings.port": 5501
 =======
     ]
 >>>>>>> 1c57ddbc24ff2a24d7482a67753dc09ffadac8c3
+>>>>>>> fa627e76127778e045fcb89ecad2488217abe1ff
 }
