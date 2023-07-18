@@ -412,22 +412,22 @@ body {
   color: black;
 }
 /* Page 3 */
-.page-3 {
+#team-member {
   margin: 5%;
 }
-.page-3-all {
+.box-size-team-member {
   box-sizing: border-box;
 }
-.h1-page3{
+#testimonial-fontsz{
   font-size: 45px;
 }
-.page-3-p {
+.fonts-script {
   font-size: 3vmin;
 }
-.page-3-button {
+.button-size {
   font-size: 2vmin;
 }
-.row-title {
+#row-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -437,7 +437,7 @@ body {
   font-size: 45px;
   font-weight: 600;
 }
-.btn {
+.btn-contact {
   cursor: pointer;
   font-size: 2.3vmin;
   color: white;
@@ -445,9 +445,11 @@ body {
   border-radius: 10px;
   border: none;
   font-weight: 600;
+  width:110px;
+  height:60px;
   
 }
-.btn:active {
+.btn-contact:active {
   box-shadow: 0 0px 0 1px #fff, 0 0 10px 10px #6245c5;
   transform: translateY(5px);
 }
@@ -455,15 +457,16 @@ body {
   display: table;
   margin-top: 5%;
 }
-.column {
+.column-tm {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
 .column-img {
   border-radius: 2%;
+  width: 100%;
 }
-.testimonial {
+#testimonial {
   padding-top: 10%;
   background-color: #fbfbfd;
 }
@@ -473,7 +476,7 @@ body {
 .flickity-viewport {
   height: auto;
 }
-.carousel {
+#carousel {
   height: auto;
   width: auto;
 }
@@ -510,7 +513,7 @@ body {
 .flickity-page-dots-p3 {
   bottom: 50px;
 }
-.p-1 {
+.text-wtg {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -524,14 +527,16 @@ body {
   border-radius: 10px;
   border: none;
   font-weight: 600;
+  width: 110px;
+  height: 60px;
 }
-.h-2 {
+.margin-contact{
   margin-top: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid;
   padding-bottom: 20px;
 }
-.edit {
+#edit {
   display: flex;
   align-items: center;
 }
@@ -562,7 +567,7 @@ body {
   height: 50px;
   width: 100%;
 }
-.input-message {
+#input-message {
   display: grid;
   grid-template-columns: auto auto;
   column-gap: 20px;
@@ -592,13 +597,13 @@ label {
 }
 /* Page 3 */
 /* page wed 4*/
-.wed-4 {
+#background-myservice {
   background-color: #fbfbfd;
 }
-.my-service-table {
+#my-service-table {
   margin: 0 5%;
 }
-.part-1 {
+#header-myservice {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -606,12 +611,11 @@ label {
   padding-top: 4%;
 }
 
-.td {
+.bgt-myservice {
   background-color: white;
-  border: none;
 }
 
-.data-1 {
+.rt-myservice{
   display: flex;
   align-items: center;
   margin: 1%;
@@ -620,7 +624,7 @@ label {
 .data-2 {
   margin: 20px;
 }
-.p2 {
+.para-myservice {
   text-align: justify;
   color: gray;
 }
@@ -656,18 +660,18 @@ label {
 }
 
 /* page wed 5*/
-.my-projects {
+#my-projects {
   font-size: 45px;
   margin-bottom: 40px;
 }
 
-.menu {
+#menu {
   float: right;
   display: flex;
   font-size: 20px;
 }
 
-.p-page2 {
+.menu-details {
   margin-right: 20px;
   border-color: red;
   cursor: pointer;
@@ -678,7 +682,7 @@ label {
   text-decoration: underline;
 }
 
-.image-page2 {
+#image-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -686,11 +690,15 @@ label {
   margin: 5%;
 }
 
-.image-page2-img {
+.image-myprojects {
   border-radius: 2%;
   width: 100%;
 }
 
-.body-page2 {
+#margin-myprojects {
   margin: 5%;
+}
+#margin-wtg{
+  width: 50%;
+   margin-right: 3%;
 }
