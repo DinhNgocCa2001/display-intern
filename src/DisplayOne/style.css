@@ -618,11 +618,11 @@ label {
   padding-top: 4%;
 }
 
-.bgt-myservice {
+.bg-table-myservice {
   background-color: white;
 }
 
-.rt-myservice{
+.row-table-myservice{
   display: flex;
   align-items: center;
   margin: 1%;
