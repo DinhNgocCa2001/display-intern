@@ -1,498 +1,593 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!--thư viện bootstrap-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-    <!--thư viện icon-->
-    <script
-      script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <!--liên kết file css-->
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
-  </head>
-  <body>
-    <!--Nga-->
-    <!--page 1-->
-    <div class="bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 .col-sm-6 col-lg-6 col-xl-6">
-            <p class="mt-sm-5 fs-3 fw-semibold mb-0" style="color: #6245c5">
-              I'm
-            </p>
-            <h1 class="fw-bold display-3">Kate Winslet</h1>
-            <p class="fs-3 fw-semibold">Apps D</p>
-            <div class="row mt-4 mb-4">
-              <div class="mt-4 col-6 col-lg-4 col-xl-3">
-                <button
-                  id="download-cv-btn"
-                  type="button"
-                  class="btn fw-semibold btn-lg fs-6"
-                  style="background: #6245c5; color: white"
-                >
-                  Download CV
-                </button>
-              </div>
-              <div class="mt-1 col-6 col-sm-4 col-lg-8 col-xl-6">
-                <div class="row">
-                  <div class="col-5 col-sm-4 col-lg-3" style="padding: auto">
-                    <button class="btn rounded-circle">
-                      <ion-icon name="caret-forward-circle-outline"></ion-icon>
-                    </button>
-                  </div>
-                  <div
-                    class="col-7 col-sm-6 col-lg-9 d-flex align-items-center"
-                  >
-                    <span>Play Video</span>
-                  </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!--thư viện bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <!--thư viện icon-->
+  <script script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/b25957ae4f.js" crossorigin="anonymous"></script>
+  <!--liên kết file css-->
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <!--Nga-->
+  <!--page 1-->
+  <div class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 .col-sm-6 col-lg-6 col-xl-6">
+          <p class="mt-sm-5 fs-3 fw-semibold mb-0" style="color: #6245c5">
+            I'm
+          </p>
+          <h1 class="fw-bold display-3">Kate Winslet</h1>
+          <p class="fs-3 fw-semibold">Apps D</p>
+          <div class="row mt-4 mb-4">
+            <div class="mt-4 col-6 col-lg-4 col-xl-3">
+              <button id="download-cv-btn" type="button" class="btn fw-semibold btn-lg fs-6"
+                style="background: #6245c5; color: white">
+                Download CV
+              </button>
+            </div>
+            <div class="mt-1 col-6 col-sm-4 col-lg-8 col-xl-6">
+              <div class="row">
+                <div class="col-5 col-sm-4 col-lg-3" style="padding: auto">
+                  <button class="btn rounded-circle">
+                    <ion-icon name="caret-forward-circle-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="col-7 col-sm-6 col-lg-9 d-flex align-items-center">
+                  <span>Play Video</span>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-12 .col-sm-6 col-lg-6 col-xl-6">
-            <div>
-              <img
-                src="img/profile2.png"
-                alt="image-header"
-                width="800rem"
-                height="800rem"
-                class="img-fluid"
-              />
-            </div>
+        <div class="col-12 .col-sm-6 col-lg-6 col-xl-6">
+          <div>
+            <img src="img/profile2.png" alt="image-header" width="800rem" height="800rem" class="img-fluid" />
           </div>
         </div>
       </div>
     </div>
-    <!--page 2-->
-    <div class="container mt-5">
+  </div>
+  <!--page 2-->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="row">
+          <div class="col-6 col-sm-3 col-md-3 col-lg-5 col-xl-3">
+            <h1 class="display-1 fw-bold m-0 mt-1" style="font-size: 9rem">
+              15
+            </h1>
+            <p class="fs-4 fw-semibold" style="letter-spacing: 1.7rem">
+              Years
+            </p>
+          </div>
+          <div class="flex-grow-1 d-flex align-items-center col-6 col-sm-9 col-md-9 col-lg-7 col-xl-9">
+            <p class="fs-3 mt-4 fw-semibold ms-2">
+              of working experience as a web designer & developer
+            </p>
+          </div>
+        </div>
+        <p class="mt-4" style="color: gray">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Accusantium, corporis molestiae cupiditate quo eligendi inventore
+          ratione ad hic repellendus sit velit, soluta beatae cumque
+          veritatis.
+        </p>
+        <div class="mb-3">
+          <ul class="list-group">
+            <li class="list-group-item border-0" style="color: gray">
+              <ion-icon name="checkmark-circle-outline" size="small" style="color: #6245c5"></ion-icon>
+              Affordable Prices
+            </li>
+            <li class="list-group-item border-0" style="color: gray">
+              <ion-icon name="checkmark-circle-outline" size="small" style="color: #6245c5"></ion-icon>
+              High Quality Product
+            </li>
+            <li class="list-group-item border-0" style="color: gray">
+              <ion-icon name="checkmark-circle-outline" size="small" style="color: #6245c5"></ion-icon>
+              On Time Project Delivery
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="btn fw-semibold px-4 py-2" style="background-color: #6245c5; color: white">
+          Read More
+        </button>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="row mt-5">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <img src="img/about-1.jpg" alt="" class="rounded img-fluid" />
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <img src="img/about-2.jpg" alt="" class="rounded img-fluid" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="text-client text-about-content col-12 mt-3">
+            <span class="title-text-about fs-5 fw-semibold">
+              Happy Clients
+            </span>
+            <div class="vr mx-3"></div>
+            <span class="number-text-about fs-3 fw-bold text" style="color: #6546c8" 888>
+              1234
+            </span>
+          </div>
+        </div>
+        <p class="mt-3" style="color: gray">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          veritatis unde ex modi aspernatur? Repudiandae possimus magni
+          numquam.
+        </p>
+        <div class="row">
+          <div class="text-client text-about-content col-12 mt-3">
+            <span class="title-text-about fs-5 fw-semibold">
+              Happy Clients
+            </span>
+            <div class="vr mx-3"></div>
+            <span class="number-text-about fs-3 fw-bold text" style="color: #6546c8">
+              1234
+            </span>
+          </div>
+        </div>
+        <p class="mt-3" style="color: gray">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          veritatis unde ex modi aspernatur? Repudiandae possimus magni
+          numquam.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--page 3-->
+  <div class="container mt-5">
+    <div class="row">
+      <!--bên trái page 3-->
+      <div class="col-12 col-lg-6 mt-2">
+        <h1 class="fw-bold">Skill & Experience</h1>
+        <p class="mt-5" style="color: gray">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+          recusandae beatae impedit autem, adipisci quisquam tempore ipsa
+          voluptates sapiente voluptas.
+        </p>
+        <h3 class="mt-4">My Skills</h3>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="row mt-3">
+              <p class="col-6 mb-1">HTML</p>
+              <p class="col-6 mb-1 text-end">95%</p>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px">
+              <div class="progress-bar" style="width: 95%"></div>
+            </div>
+            <div class="row mt-3">
+              <p class="col-6 mb-1">CSS</p>
+              <p class="col-6 mb-1 text-end">85%</p>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px">
+              <div class="progress-bar bg-warning" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="row mt-3">
+              <p class="col-6 mb-1">Javascript</p>
+              <p class="col-6 mb-1 text-end">90%</p>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px">
+              <div class="progress-bar bg-danger" style="width: 90%"></div>
+            </div>
+            <div class="row mt-3">
+              <p class="col-6 mb-1">Angular JS</p>
+              <p class="col-6 mb-1 text-end">95%</p>
+            </div>
+            <div class="progress mb-5" role="progressbar" aria-label="Basic example" aria-valuenow="95"
+              aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+              <div class="progress-bar bg-black" style="width: 95%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--bên phải page 3-->
+      <div class="col-12 col-lg-6 col-sm-12">
+        <div class="col-12">
+          <div>
+            <div class="col-12 btn-group border-color p-0" role="group" aria-label="Basic radio toggle button group"
+              style="height: 50px">
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked />
+              <label
+                class="exp-header btn btn-outline-primary p-0 border-0 d-flex align-items-center justify-content-center fs-5 rounded-3"
+                for="btnradio1">Experience</label>
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
+              <label
+                class="edu-header btn btn-outline-primary p-0 border-0 d-flex align-items-center justify-content-center fs-5 rounded-3"
+                for="btnradio2">Education</label>
+            </div>
+          </div>
+        </div>
+        <div>
+          <table class="exp-table table table-borderless mt-4">
+            <tr>
+              <td class="w-50">
+                <div>
+                  <p class="job-des fs-5 fw-medium m-0">UI Designer</p>
+                  <hr class="w-25" />
+                  <p class="text m-0">2000 - 2045</p>
+                  <p class="fw-medium my-2">Apex Software Inc</p>
+                </div>
+              </td>
+              <td class="w-50">
+                <div class="flex-nowrap">
+                  <p class="job-des fs-5 fw-medium m-0 d-flex">
+                    Product Designer
+                  </p>
+                  <hr class="w-25" />
+                  <p class="text m-0">2000 - 2045</p>
+                  <p class="fw-medium my-2">Apex Software Inc</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <p class="job-des fs-5 fw-medium m-0">Web Designer</p>
+                  <hr class="w-25" />
+                  <p class="text m-0">2000 - 2045</p>
+                  <p class="fw-medium my-2">Apex Software Inc</p>
+                </div>
+              </td>
+              <td>
+                <div>
+                  <p class="job-des fs-5 fw-medium m-0">Apps Designer</p>
+                  <hr class="w-25" />
+                  <p class="text m-0">2000 - 2045</p>
+                  <p class="fw-medium my-2">Apex Software Inc</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <table class="edu-table table table-borderless mt-4 d-none">
+            <tr>
+              <td class="w-50">
+                <div>
+                  <p class="job-des fs-5 fw-medium m-0">Hanoi University</p>
+                  <hr class="w-25" />
+                  <p class="text m-0">2000 - 2045</p>
+                  <p class="fw-medium my-2">Sofware Engineer</p>
+                </div>
+              </td>
+              <td class="w-50">
+                <div class="flex-nowrap">
+                  <p class="job-des fs-5 fw-medium m-0 d-flex">
+                    Training Time
+                  </p>
+                  <hr class="w-25" />
+                  <p class="text m-0">2000 - 2045</p>
+                  <p class="fw-medium my-2">Frontend Developer</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <p class="job-des fs-5 fw-medium m-0">Training Time 2</p>
+                  <hr class="w-25" />
+                  <p class="text m-0">2000 - 2045</p>
+                  <p class="fw-medium my-2">Backend Developer</p>
+                </div>
+              </td>
+              <td>
+                <div>
+                  <p class="job-des fs-5 fw-medium m-0">Training Time 3</p>
+                  <hr class="w-25" />
+                  <p class="ext m-0">2000 - 2045</p>
+                  <p class="fw-medium my-2">Fullstack Web</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--page 4-->
+  <div class="bg-light mt-4">
+    <!--header-->
+    <div class="container py-5">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-          <div class="row">
-            <div class="col-6 col-sm-3 col-md-3 col-lg-5 col-xl-3">
-              <h1 class="display-1 fw-bold m-0 mt-1" style="font-size: 9rem">
-                15
-              </h1>
-              <p class="fs-4 fw-semibold" style="letter-spacing: 1.7rem">
-                Years
-              </p>
-            </div>
-            <div
-              class="flex-grow-1 d-flex align-items-center col-6 col-sm-9 col-md-9 col-lg-7 col-xl-9"
-            >
-              <p class="fs-3 mt-4 fw-semibold ms-2">
-                of working experience as a web designer & developer
-              </p>
-            </div>
-          </div>
-          <p class="mt-4" style="color: gray">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Accusantium, corporis molestiae cupiditate quo eligendi inventore
-            ratione ad hic repellendus sit velit, soluta beatae cumque
-            veritatis.
-          </p>
-          <div class="mb-3">
-            <ul class="list-group">
-              <li class="list-group-item border-0" style="color: gray">
-                <ion-icon
-                  name="checkmark-circle-outline"
-                  size="small"
-                  style="color: #6245c5"
-                ></ion-icon>
-                Affordable Prices
-              </li>
-              <li class="list-group-item border-0" style="color: gray">
-                <ion-icon
-                  name="checkmark-circle-outline"
-                  size="small"
-                  style="color: #6245c5"
-                ></ion-icon>
-                High Quality Product
-              </li>
-              <li class="list-group-item border-0" style="color: gray">
-                <ion-icon
-                  name="checkmark-circle-outline"
-                  size="small"
-                  style="color: #6245c5"
-                ></ion-icon>
-                On Time Project Delivery
-              </li>
-            </ul>
-          </div>
-          <button
-            type="button"
-            class="btn fw-semibold px-4 py-2"
-            style="background-color: #6245c5; color: white"
-          >
-            Read More
+        <div class="col-6">
+          <h1 class="fw-bold">My Services</h1>
+        </div>
+        <div class="col-6">
+          <button type="button" class="btn fw-semibold btn-lg fs-6 px-5 py-3 float-end"
+          style="background: #6245c5; color: white">
+            Hire Me
           </button>
         </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-          <div class="row mt-5">
-            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-              <img src="img/about-1.jpg" alt="" class="rounded img-fluid" />
-            </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-              <img src="img/about-2.jpg" alt="" class="rounded img-fluid" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="text-client text-about-content col-12 mt-3">
-              <span class="title-text-about fs-5 fw-semibold">
-                Happy Clients
-              </span>
-              <div class="vr mx-3"></div>
-              <span
-                class="number-text-about fs-3 fw-bold text"
-                style="color: #6546c8"
-                888
-              >
-                1234
-              </span>
-            </div>
-          </div>
-          <p class="mt-3" style="color: gray">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            veritatis unde ex modi aspernatur? Repudiandae possimus magni
-            numquam.
-          </p>
-          <div class="row">
-            <div class="text-client text-about-content col-12 mt-3">
-              <span class="title-text-about fs-5 fw-semibold">
-                Happy Clients
-              </span>
-              <div class="vr mx-3"></div>
-              <span
-                class="number-text-about fs-3 fw-bold text"
-                style="color: #6546c8"
-              >
-                1234
-              </span>
-            </div>
-          </div>
-          <p class="mt-3" style="color: gray">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            veritatis unde ex modi aspernatur? Repudiandae possimus magni
-            numquam.
-          </p>
-        </div>
       </div>
-    </div>
-    <!--page 3-->
-    <div class="container mt-5">
-      <div class="row">
-        <!--bên trái page 3-->
-        <div class="col-12 col-lg-6 mt-2">
-          <h1 class="fw-bold">Skill & Experience</h1>
-          <p class="mt-5" style="color: gray">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
-            recusandae beatae impedit autem, adipisci quisquam tempore ipsa
-            voluptates sapiente voluptas.
-          </p>
-          <h3 class="mt-4">My Skills</h3>
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-              <div class="row mt-3">
-                <p class="col-6 mb-1">HTML</p>
-                <p class="col-6 mb-1 text-end">95%</p>
-              </div>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Basic example"
-                aria-valuenow="95"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="height: 5px"
-              >
-                <div class="progress-bar" style="width: 95%"></div>
-              </div>
-              <div class="row mt-3">
-                <p class="col-6 mb-1">CSS</p>
-                <p class="col-6 mb-1 text-end">85%</p>
-              </div>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Basic example"
-                aria-valuenow="95"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="height: 5px"
-              >
-                <div class="progress-bar bg-warning" style="width: 85%"></div>
-              </div>
+      <!--table-->
+      <div class="row mt-4">
+        <!--left-->
+        <div class="col-12 col-lg-6">
+          <div class="row bg-white mt-4 p-4 m-1">
+            <div class="col-3">
+              <img class="img-fluid" src="image/creative.png" alt="" />
             </div>
-
-            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-              <div class="row mt-3">
-                <p class="col-6 mb-1">Javascript</p>
-                <p class="col-6 mb-1 text-end">90%</p>
-              </div>
-              <div
-                class="progress"
-                role="progressbar"
-                aria-label="Basic example"
-                aria-valuenow="95"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="height: 5px"
-              >
-                <div class="progress-bar bg-danger" style="width: 90%"></div>
-              </div>
-              <div class="row mt-3">
-                <p class="col-6 mb-1">Angular JS</p>
-                <p class="col-6 mb-1 text-end">95%</p>
-              </div>
-              <div
-                class="progress mb-5"
-                role="progressbar"
-                aria-label="Basic example"
-                aria-valuenow="95"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="height: 5px"
-              >
-                <div class="progress-bar bg-black" style="width: 95%"></div>
-              </div>
+            <div class="col-9">
+              <h4 class="fw-semibold">Creative Design</h4>
+              <span class="fs-6 fw-semibold">Start from</span>
+              <span class="fw-semibold" style="color: #6245c5">$199</span>
+              <p style="color: gray">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quod, dolor! Dignissimos dolores, velit omnis ratione nobis
+                suscipit et.
+              </p>
+            </div>
+          </div>
+          <div class="row bg-white mt-4 p-4 m-1">
+            <div class="col-3">
+              <img class="img-fluid" src="image/wed.png" alt="" />
+            </div>
+            <div class="col-9">
+              <h4 class="fw-semibold">Web Design</h4>
+              <span class="fs-6 fw-semibold">Start from</span>
+              <span class="fw-semibold" style="color: #6245c5">$199</span>
+              <p style="color: gray">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quod, dolor! Dignissimos dolores, velit omnis ratione nobis
+                suscipit et.
+              </p>
             </div>
           </div>
         </div>
-        <!--bên phải page 3-->
-        <div class="col-12 col-lg-6 col-sm-12">
-          <div class="col-12">
-            <div>
-              <div
-                class="col-12 btn-group border-color p-0"
-                role="group"
-                aria-label="Basic radio toggle button group"
-                style="height: 50px"
-              >
-                <input
-                  type="radio"
-                  class="btn-check"
-                  name="btnradio"
-                  id="btnradio1"
-                  autocomplete="off"
-                  checked
-                />
-                <label
-                  class="exp-header btn btn-outline-primary p-0 border-0 d-flex align-items-center justify-content-center fs-5 rounded-3"
-                  for="btnradio1"
-                  >Experience</label
-                >
-                <input
-                  type="radio"
-                  class="btn-check"
-                  name="btnradio"
-                  id="btnradio2"
-                  autocomplete="off"
-                />
-                <label
-                  class="edu-header btn btn-outline-primary p-0 border-0 d-flex align-items-center justify-content-center fs-5 rounded-3"
-                  for="btnradio2"
-                  >Education</label
-                >
-              </div>
+        <!--right-->
+        <div class="col-12 col-lg-6">
+          <div class="row bg-white mt-4 p-4 m-1">
+            <div class="col-3">
+              <img class="img-fluid" src="image/graphic.png" alt="" />
+            </div>
+            <div class="col-9">
+              <h4 class="fw-semibold">Graphic Design</h4>
+              <span class="fs-6 fw-semibold">Start from</span>
+              <span class="fw-semibold" style="color: #6245c5">$199</span>
+              <p style="color: gray">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quod, dolor! Dignissimos dolores, velit omnis ratione nobis
+                suscipit et.
+              </p>
             </div>
           </div>
-          <div>
-            <table class="exp-table table table-borderless mt-4">
-              <tr>
-                <td class="w-50">
-                  <div>
-                    <p class="job-des fs-5 fw-medium m-0">UI Designer</p>
-                    <hr class="w-25" />
-                    <p class="text m-0">2000 - 2045</p>
-                    <p class="fw-medium my-2">Apex Software Inc</p>
-                  </div>
-                </td>
-                <td class="w-50">
-                  <div class="flex-nowrap">
-                    <p class="job-des fs-5 fw-medium m-0 d-flex">
-                      Product Designer
-                    </p>
-                    <hr class="w-25" />
-                    <p class="text m-0">2000 - 2045</p>
-                    <p class="fw-medium my-2">Apex Software Inc</p>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div>
-                    <p class="job-des fs-5 fw-medium m-0">Web Designer</p>
-                    <hr class="w-25" />
-                    <p class="text m-0">2000 - 2045</p>
-                    <p class="fw-medium my-2">Apex Software Inc</p>
-                  </div>
-                </td>
-                <td>
-                  <div>
-                    <p class="job-des fs-5 fw-medium m-0">Apps Designer</p>
-                    <hr class="w-25" />
-                    <p class="text m-0">2000 - 2045</p>
-                    <p class="fw-medium my-2">Apex Software Inc</p>
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div>
-            <table class="edu-table table table-borderless mt-4 d-none">
-              <tr>
-                <td class="w-50">
-                  <div>
-                    <p class="job-des fs-5 fw-medium m-0">Hanoi University</p>
-                    <hr class="w-25" />
-                    <p class="text m-0">2000 - 2045</p>
-                    <p class="fw-medium my-2">Sofware Engineer</p>
-                  </div>
-                </td>
-                <td class="w-50">
-                  <div class="flex-nowrap">
-                    <p class="job-des fs-5 fw-medium m-0 d-flex">
-                      Training Time
-                    </p>
-                    <hr class="w-25" />
-                    <p class="text m-0">2000 - 2045</p>
-                    <p class="fw-medium my-2">Frontend Developer</p>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div>
-                    <p class="job-des fs-5 fw-medium m-0">Training Time 2</p>
-                    <hr class="w-25" />
-                    <p class="text m-0">2000 - 2045</p>
-                    <p class="fw-medium my-2">Backend Developer</p>
-                  </div>
-                </td>
-                <td>
-                  <div>
-                    <p class="job-des fs-5 fw-medium m-0">Training Time 3</p>
-                    <hr class="w-25" />
-                    <p class="ext m-0">2000 - 2045</p>
-                    <p class="fw-medium my-2">Fullstack Web</p>
-                  </div>
-                </td>
-              </tr>
-            </table>
+          <div class="row bg-white mt-4 p-4 m-1">
+            <div class="col-3">
+              <img class="img-fluid" src="image/uiux.png" alt="" />
+            </div>
+            <div class="col-9">
+              <h4 class="fw-semibold">UI/UX Design</h4>
+              <span class="fs-6 fw-semibold">Start from</span>
+              <span class="fw-semibold" style="color: #6245c5">$199</span>
+              <p style="color: gray">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quod, dolor! Dignissimos dolores, velit omnis ratione nobis
+                suscipit et.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!--page 4-->
-    <div class="bg-light mt-4">
-      <!--header-->
-      <div class="container py-5">
+  </div>
+  <!--page 4-->
+  <!--THỊNH-->
+  <!-- My-Projects -->
+  <div class="m-3">
+    <div class="row">
+      <div class="col-12 col-md-8">
+        <b class="fs-1">My projects</b>
+      </div>
+      <div class="col-12 col-md-4">
         <div class="row">
-          <div class="col-6">
-            <h1 class="fw-bold">My Services</h1>
-          </div>
-          <div class="col-6">
-            <button
-              type="button"
-              class="btn fw-semibold btn-lg fs-6 px-5 py-3 float-end"
-              style="background: #6245c5; color: white"
-            >
-              Hire Me
-            </button>
-          </div>
-        </div>
-        <!--table-->
-        <div class="row mt-4">
-          <!--left-->
-          <div class="col-12 col-lg-6">
-            <div class="row bg-white mt-4 p-4 m-1">
-              <div class="col-3">
-                <img class="img-fluid" src="image/creative.png" alt="" />
-              </div>
-              <div class="col-9">
-                <h4 class="fw-semibold">Creative Design</h4>
-                <span class="fs-6 fw-semibold">Start from</span>
-                <span class="fw-semibold" style="color: #6245c5">$199</span>
-                <p style="color: gray">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quod, dolor! Dignissimos dolores, velit omnis ratione nobis
-                  suscipit et.
-                </p>
-              </div>
-            </div>
-            <div class="row bg-white mt-4 p-4 m-1">
-              <div class="col-3">
-                <img class="img-fluid" src="image/wed.png" alt="" />
-              </div>
-              <div class="col-9">
-                <h4 class="fw-semibold">Web Design</h4>
-                <span class="fs-6 fw-semibold">Start from</span>
-                <span class="fw-semibold" style="color: #6245c5">$199</span>
-                <p style="color: gray">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quod, dolor! Dignissimos dolores, velit omnis ratione nobis
-                  suscipit et.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--right-->
-          <div class="col-12 col-lg-6">
-            <div class="row bg-white mt-4 p-4 m-1">
-              <div class="col-3">
-                <img class="img-fluid" src="image/graphic.png" alt="" />
-              </div>
-              <div class="col-9">
-                <h4 class="fw-semibold">Graphic Design</h4>
-                <span class="fs-6 fw-semibold">Start from</span>
-                <span class="fw-semibold" style="color: #6245c5">$199</span>
-                <p style="color: gray">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quod, dolor! Dignissimos dolores, velit omnis ratione nobis
-                  suscipit et.
-                </p>
-              </div>
-            </div>
-            <div class="row bg-white mt-4 p-4 m-1">
-              <div class="col-3">
-                <img class="img-fluid" src="image/uiux.png" alt="" />
-              </div>
-              <div class="col-9">
-                <h4 class="fw-semibold">UI/UX Design</h4>
-                <span class="fs-6 fw-semibold">Start from</span>
-                <span class="fw-semibold" style="color: #6245c5">$199</span>
-                <p style="color: gray">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quod, dolor! Dignissimos dolores, velit omnis ratione nobis
-                  suscipit et.
-                </p>
-              </div>
-            </div>
-          </div>
+          <a
+            class="col-12 col-md-4  link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-reset pt-4  ">
+            All Projects
+          </a>
+          <a
+            class="col-md-4 col-12 link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-reset pt-4 ">
+            UI/UX Design
+          </a>
+          <a
+            class="col-md-4 col-12 link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-reset pt-4 ">
+            Graphic Design
+          </a>
         </div>
       </div>
     </div>
-    <!--page 4-->
-  </body>
+    <div class="row">
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-1.jpg" alt="project-1" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-2.jpg" alt="project-2" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-3.jpg" alt="project-3" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-4.jpg" alt="project-4" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-5.jpg" alt="project-5" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-6.jpg" alt="project-6" />
+    </div>
+  </div>
+  <!--Team member-->
+  <div class=" m-3">
+    <div class="row justify-content-between m-3">
+      <div class="fs-1 col-md-11 col-12 p-0 ">Team members</div>
+      <button class="col-md-1 col-5 btn btn-lg  p-0 btn-click fw-semibold">
+        Contact Us
+      </button>
+    </div>
+    <div class="row">
+      <img class="col-md-4 col-12  rounded-4  " src="./img/team-1.jpg" />
+      <img class="col-md-4 col-12  rounded-4  " src="./img/team-2.jpg" />
+      <img class="col-md-4 col-12  rounded-4  " src="./img/team-3.jpg" />
+    </div>
+  </div>
+  <!--  -->
+  <div class="bg-light">
+    <h1 class=" text-center fs-1 pt-5">Testimonial</h1>
+    <div id="testimonial-slide" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testimonial-slide" data-bs-slide-to="0" class="active"
+          style="width: 10px; height: 10px; border-radius: 100%;"></button>
+        <button type="button" data-bs-target="#testimonial-slide" data-bs-slide-to="1"
+          style="width: 10px; height: 10px; border-radius: 100%;"></button>
+        <button type="button" data-bs-target="#testimonial-slide" data-bs-slide-to="2"
+          style="width: 10px; height: 10px; border-radius: 100%;"></button>
+      </div>
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <!-- first silde -->
+        <div class="col carousel-item active">
+          <img class="rounded-circle mx-auto d-block p-5" src="./img/testimonial-1.jpg" />
+          <p class="text-center fs-5 fst-italic">
+            “I noticed I asked you for a deliverable on this key project by
+            the end of last week.”
+          </p>
+          <div class="row">
+            <div class="col-2"></div>
+            <hr class="border-2 col-8 ">
+            <div class="col-2"></div>
+          </div>
+          <h3 class="pt-1 text-center pb-2">Anna Meo</h3>
+          <p class="text-center pb-5 fs-5">Developer</p>
+        </div>
+        <!-- second slide  -->
+        <div class="col carousel-item">
+          <img class="rounded-circle mx-auto d-block p-5" src="./img/testimonial-2.jpg" />
+          <p class="text-center fs-5 fst-italic">
+            “I noticed I asked you for a deliverable on this key project by
+            the end of last week.”
+          </p>
+          <div class="row">
+            <div class="col-2"></div>
+            <hr class="border-2 col-8 ">
+            <div class="col-2"></div>
+          </div>
+          <h3 class="pt-1 text-center pb-2">Anna Ku</h3>
+          <p class="text-center pb-5 fs-5">Developer</p>
+        </div>
+        <!-- third slide -->
+        <div class="col carousel-item">
+          <img class="rounded-circle mx-auto d-block p-5" src="./img/testimonial-3.jpg" />
+          <p class="text-center fs-5 fst-italic">
+            “I noticed I asked you for a deliverable on this key project by
+            the end of last week.”
+          </p>
+          <div class="row">
+            <div class="col-2"></div>
+            <hr class="border-2 col-8 ">
+            <div class="col-2"></div>
+          </div>
+          <h3 class="pt-1 text-center pb-2">Anna Kun</h3>
+          <p class="text-center pb-5 fs-5">Developer</p>
+        </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#testimonial-slide"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#testimonial-slide"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+
+  <div class="row m-3">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-md-11 col-12 fs-1 p-0"><b>Let's Work Together</b></div>
+        <button class="col-md-1 col-5 btn btn-lg btn-click fw-semibold" >
+          Say Hello
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-12">
+          <label>My office:</label><br />
+          <h2 class="">123 Street, New York, USA</h2>
+          <hr class="border-2">
+          <label>Call me:</label><br />
+          <h2 class="">+012 345 6789</h2>
+          <hr class="border-2">
+          <label>Mail me:</label><br />
+          <h2 class="">info@example.com</h2>
+          <hr class="border-2">
+          <label>Follow me:</label><br />
+          <div class="row justify-content-between">
+            <div class="col-md-1 col-2 m-1 ">
+              <button class="btn-click btn">
+                <i class="fa-brands fa-twitter"></i>
+              </button>
+            </div>
+            <div class="col-md-1 col-2 m-1">
+              <button class="btn btn-click ">
+                <i class="fa-brands fa-facebook-f box-size-team-member" style="width: 18px"></i>
+              </button>
+            </div>
+            <div class="col-md-1 col-2 m-1">
+              <button class="btn btn-click ">
+                <i class="fa-brands fa-youtube"></i>
+              </button>
+            </div>
+            <div class="col-md-1 col-2 m-1">
+              <button class = "btn btn-click">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </button>
+            </div>
+            <div class="col-2 col-lg-7 col-md-5"></div>
+          </div>
+
+        </div>
+        <div class="col-md-7 col-12 p-0">
+          <div class="row m-2">
+            <span class="p-0">Stet lorem dolor diam amet vero eos. No stet est diam amet diam
+              ipsum. Clita dolor duo clita sit sed dolor eos. Stet lorem dolor
+              diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor
+              duo clita sit sed.
+              <a class="link-primary">Download Now...</a></span>
+          </div>
+          <div class="row m-2 mt-4">
+            <input class="col p-0 me-2 rounded-1 p-3" type="text" placeholder="Your Name" />
+            <input class="col p-0 ms-2 rounded-1 p-3" type="text" placeholder="Your Email" />
+          </div>
+          <div class="row m-2 mt-3 ">
+            <input class="col p-0 rounded-1 p-3" type="text" placeholder="Subject" /><br />
+          </div>
+          <div class="row m-2 mt-3 ">
+            <textarea class="col rounded-1" rows="4" cols="50" placeholder="Message"></textarea>
+          </div>
+          <button class=" col-md-2 btn btn-lg  mt-4 ms-2 p-2 btn-click fw-semibold ">
+            Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
 </html>

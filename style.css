@@ -21,6 +21,11 @@ ion-icon {
 .btn-primary {
   background-color: #6245c5 !important;
 }
+.btn-click {
+  background-color: #6245c5 !important;
+  color: white !important;
+}
+
 .btn:active {
   position: relative;
   top: 5px;
