@@ -1,495 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/b25957ae4f.js"
-      crossorigin="anonymous">
-    </script>
-   
-    <script src="main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
-  </head>
 
-  <body>
-    <!--NGA-->
-    <!--Page 1-->
-    <div> <!--bỏ  id="page-1" -->
-      <div id="header">
-        <div id="content-header">
-          <div id="text-header">
-            <p id="type-im">I'm</p>
-            <h1 id="type-Kate-Winslet">Kate Winslet</h1>
-            <p id="type-apps">Apps D</p>
-            <button id="download-cv-btn">Download CV</button>
-            <button id="play-btn"><i class="fas fa-play"></i></button>
-            <span id="play-text">Play Video</span>
-          </div>
-          <div>
-            <img
-              src="img/profile.png"
-              alt="image-header"
-              width="700px"
-              height="800px"
-              id="image-header"
-            />
-          </div>
-        </div>
-      </div>
-      <div>
-        <div id="content-overview">
-          <div id="time-work">
-            <div id="header-time-overview">
-              <div>
-                <p id="year-exp">15</p>
-                <p id="years-label">Years</p>
-              </div>
-              <div>
-                <p id="job-exp">
-                  of working experience as a web designer & developer
-                </p>
-              </div>
-            </div>
-            <p id="content-time-overview">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              at corporis amet dolor exercitationem laboriosam adipisci sed
-              consectetur nam recusandae, nisi, distinctio cumque obcaecati
-              possimus deleniti ab eius mollitia optio.
-            </p>
-            <div> <!--bỏ  class="benefit"-->
-              <ul id="ul-benefit">
-                <li class="ul-li-benefit">
-                  <span><i class="fa-regular fa-circle-check"></i></span>
-                  <span>Affordable Prices</span>
-                </li>
-                <li class="ul-li-benefit">
-                  <span><i class="fa-regular fa-circle-check"></i></span>
-                  <span>High Quality Product</span>
-                </li>
-                <li class="ul-li-benefit">
-                  <span><i class="fa-regular fa-circle-check"></i></span>
-                  <span>On Time Project Delivery</span>
-                </li>
-              </ul>
-            </div>
-            <button type="button" id="readmore-btn-overview">Read More</button>
-          </div>
-          <div id="about-work">
-            <div id="img-overview-contain">
-              <img
-                src="img/about-1.jpg"
-                alt="about-1"
-                class="img-overview"
-                width="50%"
-                height="300px"
-              />
-              <img
-                src="img/about-2.jpg"
-                alt="about-2"
-                class="img-overview"
-                width="50%"
-                height="300px"
-              />
-            </div>
-            <div id="text-about">
-              <div class="text-about-content">
-                <span class="title-text-about">Happy Clients</span
-                ><span class="vertical-line"></span
-                ><span class="number-text-about">1234</span>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" />
+  <script src="https://kit.fontawesome.com/b25957ae4f.js" crossorigin="anonymous">
+  </script>
 
-                <p class="content-achievements-overview">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                  quam esse dignissimos consequuntur nesciunt atque dolores
-                  necessitatibus.
-                </p>
-              </div>
-              <div class="text-about-content">
-                <span class="title-text-about">Projects Completed</span
-                ><span class="vertical-line"></span
-                ><span class="number-text-about">1234</span>
-                <p class="content-achievements-overview">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                  quam esse dignissimos consequuntur nesciunt atque dolores
-                  necessitatibus.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+</head>
+
+<body>
+  <!--THỊNH-->
+  <!-- My-Projects -->
+  <div class="m-3">
+    <div class="row">
+      <div class = "col-12 col-md-8">
+        <b class="fs-1">My projects</b>
       </div>
-      <div>
-        <div id="skill-and-exp-contain">
-          <div id="skill-contain">
-            <h1 id="type-Skills-Experience">Skills & Experience</h1>
-            <p id="text-color-contain">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-              inventore veniam et laborum sunt excepturi iusto molestias
-              similique, perferendis ut molestiae libero, dolorum fugit.
-              Dignissimos cumque atque quidem eius quas!
-            </p>
-            <div>
-              <h2 id="type-my-skills">My Skills</h2>
-              <table id="my-skills-table">
-                <tr>
-                  <td class="my-skills-border-table">
-                    <div>
-                      <div class="skill-header">
-                        <span>HTML</span><span>95%</span>
-                      </div>
-                      <div class="progress-bar">
-                        <div id="color-bar1"></div>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="my-skills-border-table">
-                    <div>
-                      <div class="skill-header">
-                        <span>JavaScript</span><span>90%</span>
-                      </div>
-                      <div class="progress-bar">
-                        <div id="color-bar2"></div>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="my-skills-border-table">
-                    <div>
-                      <div class="skill-header">
-                        <span>CSS</span><span>85%</span>
-                      </div>
-                      <div class="progress-bar">
-                        <div id="color-bar3"></div>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="my-skills-border-table">
-                    <div>
-                      <div class="skill-header">
-                        <span>Angular JS</span><span>95%</span>
-                      </div>
-                      <div class="progress-bar">
-                        <div id="color-bar4"></div>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-          <div id="exp-and-edu-contain">
-            <div id="exp-and-edu-header">
-              <div class="exp-header">Experience</div>
-              <div class="edu-header change-background">Education</div>
-            </div>
-            <table class="exp-table">
-              <tr>
-                <td>
-                  <div class="exp-des1">
-                    <p class="job-des">UI Designer</p>
-                    <hr class="line-exp-des" />
-                    <p class="time-des">2000 - 2045</p>
-                    <p>Apex Software Inc</p>
-                  </div>
-                </td>
-                <td>
-                  <div class="exp-des1">
-                    <p class="job-des">Product Designer</p>
-                    <hr class="line-exp-des" />
-                    <p class="time-des">2000 - 2045</p>
-                    <p>Apex Software Inc</p>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="exp-des1">
-                    <p class="job-des">Web Designer</p>
-                    <hr class="line-exp-des" />
-                    <p class="time-des">2000 - 2045</p>
-                    <p>Apex Software Inc</p>
-                  </div>
-                </td>
-                <td>
-                  <div class="exp-des1">
-                    <p class="job-des">Apps Designer</p>
-                    <hr class="line-exp-des" />
-                    <p class="time-des">2000 - 2045</p>
-                    <p>Apex Software Inc</p>
-                  </div>
-                </td>
-              </tr>
-            </table>
-            <table class="edu-table" style="display: none">
-              <tr>
-                <td>
-                  <div class="exp-des1">
-                    <p class="job-des">Hanoi University</p>
-                    <hr class="line-exp-des" />
-                    <p class="time-des">2020 - 2024</p>
-                    <p>Sofware Engineer</p>
-                  </div>
-                </td>
-                <td>
-                  <div class="exp-des1">
-                    <p class="job-des">Training Time</p>
-                    <hr class="line-exp-des" />
-                    <p class="time-des">2024 - 2025</p>
-                    <p>Frontend Developer</p>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="exp-des1">
-                    <p class="job-des">Training Time 2</p>
-                    <hr class="line-exp-des" />
-                    <p class="time-des">2024 - 2025</p>
-                    <p>Backend Developer</p>
-                  </div>
-                </td>
-                <td>
-                  <div class="exp-des1">
-                    <p class="job-des">Training Time 3</p>
-                    <hr class="line-exp-des" />
-                    <p class="time-des">2024 - 2025</p>
-                    <p>Fullstack Web</p>
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
+      <div class = "col-12 col-md-4">
+        <div class = "row">
+      <a
+        class="col-12 col-md-4  link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-reset pt-4  ">
+        All Projects
+      </a>
+      <a
+        class="col-md-4 col-12 link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-reset pt-4 ">
+        UI/UX Design
+      </a>
+      <a
+        class="col-md-4 col-12 link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-reset pt-4 ">
+        Graphic Design
+      </a>
+    </div>
+    </div>
+    </div>
+    <div class="row">
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-1.jpg" alt="project-1" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-2.jpg" alt="project-2" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-3.jpg" alt="project-3" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-4.jpg" alt="project-4" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-5.jpg" alt="project-5" />
+      <img class="col-md-4 col-12 p-2 rounded-5  " src="img/project-6.jpg" alt="project-6" />
+    </div>
+  </div>
+  <!--Team member-->
+  <div class=" m-3">
+    <div class="row justify-content-between m-3">
+      <div class="fs-1 col-md-11 col-12 p-0 ">Team members</div>
+      <button class="col-md-1 col-5 btn btn-primary p-0 " style="background-color: #6245c5;" >
+        Contact Us
+      </button>
+    </div>
+    <div class="row">
+      <img class="col-md-4 col-12  rounded-4  " src="./img/team-1.jpg" />
+      <img class="col-md-4 col-12  rounded-4  " src="./img/team-2.jpg" />
+      <img class="col-md-4 col-12  rounded-4  " src="./img/team-3.jpg" />
+    </div>
+  </div>
+  <!--  -->
+  <div class="bg-light">
+    <h1 class=" text-center fs-1 pt-5">Testimonial</h1>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script> -->
+    <!-- <div id="carousel" class=" box-size-team-member flickity-page-dots-p3 " data-flickity='{"autoPlay": false}'> -->
+    <div id="testimonial-slide" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" >
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type ="button" data-bs-target="#testimonial-slide" data-bs-slide-to="0" class="active" style = "width: 10px; height: 10px; border-radius: 100%;"></button>
+          <button type="button" data-bs-target="#testimonial-slide" data-bs-slide-to="1" style = "width: 10px; height: 10px; border-radius: 100%;"></button>
+          <button type="button" data-bs-target="#testimonial-slide" data-bs-slide-to="2" style = "width: 10px; height: 10px; border-radius: 100%;"></button>
         </div>
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <!-- first silde -->
+        <div class="col carousel-item active">
+          <img class="rounded-circle mx-auto d-block p-5"  src="./img/testimonial-1.jpg" />
+          <p class="text-center fs-5 fst-italic">
+            “I noticed I asked you for a deliverable on this key project by
+            the end of last week.”
+          </p>
+          <div class="row">
+            <div class="col-2"></div>
+            <hr class="border-2 col-8 ">
+            <div class="col-2"></div>
+          </div>
+          <h3 class="pt-1 text-center pb-2">Anna Meo</h3>
+          <p class="text-center pb-5 fs-5">Developer</p>
+        </div>
+        <!-- second slide  -->
+        <div class="col carousel-item">
+          <img class="rounded-circle mx-auto d-block p-5" src="./img/testimonial-2.jpg" />
+          <p class="text-center fs-5 fst-italic">
+            “I noticed I asked you for a deliverable on this key project by
+            the end of last week.”
+          </p>
+          <div class="row">
+            <div class="col-2"></div>
+            <hr class="border-2 col-8 ">
+            <div class="col-2"></div>
+          </div>
+          <h3 class="pt-1 text-center pb-2">Anna Ku</h3>
+          <p class="text-center pb-5 fs-5">Developer</p>
+        </div>
+        <!-- third slide -->
+        <div class="col carousel-item">
+          <img class="rounded-circle mx-auto d-block p-5" src="./img/testimonial-3.jpg" />
+          <p class="text-center fs-5 fst-italic">
+            “I noticed I asked you for a deliverable on this key project by
+            the end of last week.”
+          </p>
+          <div class="row">
+            <div class="col-2"></div>
+            <hr class="border-2 col-8 ">
+            <div class="col-2"></div>
+          </div>
+          <h3 class="pt-1 text-center pb-2">Anna Kun</h3>
+          <p class="text-center pb-5 fs-5">Developer</p>
+        </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#testimonial-slide"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#testimonial-slide"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        
       </div>
     </div>
-    <!--Page 1-->
-    <!--Page 2-->
-    <div>
-      <div id="background-myservice">
-        <div id="header-myservice">
-          <div class="head-page">My Services</div>
-          <button class="btn-contact">Hire Me</button>
-        </div>
-        <table id="my-service-table">
-          <tr class="row-table-myservice">
-            <div>
-              <!-- rt-myservice : row table my Services
-              bgt-myservice: background table myservice -->
-              <td class="row-table-myservice bg-table-myservice">
-                <div>
-                  <img src="image/creative.png" alt="error" />
-                </div>
-                <div class="data-services-2">
-                  <h2>Creative Design</h2>
-                  <h3>Start from <span style="color: #6245c5">$199</span></h3>
-                  <p class="para-myservice">
-                    Stet lorem dolor diam amet vero eos. No stet est diam amet
-                    diam ipsum. Clita dolor duo clita sit sed dolor eos.
-                  </p>
-                </div>
-              </td>
-            </div>
-            <div>
-              <td class="row-table-myservice bg-table-myservice">
-                <div>
-                  <img src="image/graphic.png" alt="error" />
-                </div>
-                <div class="data-services-2">
-                  <h2>Graphic Design</h2>
-                  <h3>Start from <span style="color: #6245c5">$199</span></h3>
-                  <p class="para-myservice">
-                    Stet lorem dolor diam amet vero eos. No stet est diam amet
-                    diam ipsum. Clita dolor duo clita sit sed dolor eos.
-                  </p>
-                </div>
-              </td>
-            </div>
-          </tr>
-          <tr class="row-table-myservice">
-            <div>
-              <td class="row-table-myservice bg-table-myservice">
-                <div>
-                  <img src="image/wed.png" alt="error" />
-                </div>
-                <div class="data-services-2">
-                  <h2>Wed Design</h2>
-                  <h3>Start from <span style="color: #6245c5">$199</span></h3>
-                  <p class="para-myservice">
-                    Stet lorem dolor diam amet vero eos. No stet est diam amet
-                    diam ipsum. Clita dolor duo clita sit sed dolor eos.
-                  </p>
-                </div>
-              </td>
-            </div>
-            <div>
-              <td class="row-table-myservice bg-table-myservice">
-                <div>
-                  <img src="image/uiux.png" alt="error" />
-                </div>
-                <div class="data-services-2">
-                  <h2>UI/UX Design</h2>
-                  <h3>Start from <span style="color: #6245c5">$199</span></h3>
-                  <p class="para-myservice">
-                    Stet lorem dolor diam amet vero eos. No stet est diam amet
-                    diam ipsum. Clita dolor duo clita sit sed dolor eos.
-                  </p>
-                </div>
-              </td>
-            </div>
-          </tr>
-        </table>
-      </div>
-<!-- My-Projects -->
-    <div id="margin-myprojects">
-        <span id="my-projects">
-<!--THỊNH-->
-          <b>My projects</b>
-        </span>
-        <span id="menu">
-          <p class="menu-details">All Projects</p>
-          <p class="menu-details">UI/UX Design</p>
-          <p class="menu-details">Graphic Design</p>
-        </span>
-      </div>
-      <div id="image-container">
-        <img class = "image-myprojects" src="img/project-1.jpg" alt="project-1" />
-        <img class = "image-myprojects" src="img/project-2.jpg" alt="project-2" />
-        <img class = "image-myprojects" src="img/project-3.jpg" alt="project-3" />
-        <img class = "image-myprojects" src="img/project-4.jpg" alt="project-4" />
-        <img class = "image-myprojects" src="img/project-5.jpg" alt="project-5" />
-        <img class = "image-myprojects" src="img/project-6.jpg" alt="project-6" />
-      </div>
-    </div>
-    <!--Page 2-->
-    <!--Page 3-->
-    <div id="team-member">  
-      <div class="box-size-team-member ">
-        <div id = "row-title"  class=" box-size-team-member">
-          <div class="head-page box-size-team-member">Team members</div>
-          <button class="btn-contact button-size box-size-team-member ">
-            Contact Us
-          </button>
-        </div>
-        <!--  -->
+  </div>
 
-        <div class="row-img box-size-team-member">
-          <div class="column-tm box-size-team-member">
-            <img class="column-img"  src="./img/team-1.jpg"  />
-          </div>
-          <div class=" column-tm box-size-team-member">
-            <img class="column-img"  src="./img/team-2.jpg"  />
-          </div>
-          <div class=" column-tm box-size-team-member">
-            <img class="column-img" src="./img/team-3.jpg" />
-          </div>
-        </div>
+  <!--  -->
+
+  <div class="row m-3">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-md-11 col-12 fs-1 p-0"><b>Let's Work Together</b></div>
+        <button class="col-md-1 col-5 btn btn-primary" style="background-color: #6245c5;">
+          Say Hello
+        </button>
       </div>
-      <!--  -->
-      <div id="testimonial" class="box-size-team-member">
-        <h1 id ="testimonial-fontsz" class = " testimonial-h1 box-size-team-member">Testimonial</h1>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
-        <div id="carousel" class=" box-size-team-member flickity-page-dots-p3 " data-flickity='{"autoPlay": true}'>
-          <div class="carousel-cell box-size-team-member">
-            <img class ="carousel-cell-img box-size-team-member" src="./img/testimonial-1.jpg" />
-            <p class="center-text-testimonial fonts-script box-size-team-member">
-              “I noticed I asked you for a deliverable on this key project by
-              the end of last week.”
-            </p>
-            <div class="line-testimonial box-size-team-member"></div>
-            <h3 class="name-testimonial box-size-team-member">Anna Meo</h3>
-            <h4 class="prof-testimonial box-size-team-member">Developer</h4>
-          </div>
-          <div class="carousel-cell box-size-team-member">
-            <img class ="carousel-cell-img box-size-team-member" src="./img/testimonial-2.jpg" />
-            <p class="center-text-testimonial fonts-script box-size-team-member">
-              “I noticed I asked you for a deliverable on this key project by
-              the end of last week.”
-            </p>
-            <div class="line-testimonial box-size-team-member"></div>
-            <h3 class="name-testimonial box-size-team-member">Anna Ku</h3>
-            <h4 class="prof-testimonial box-size-team-member">Developer</h4>
-          </div>
-          <div class="carousel-cell box-size-team-member">
-            <img class ="carousel-cell-img box-size-team-member" src="./img/testimonial-3.jpg" />
-            <p class="center-text-testimonial fonts-script box-size-team-member">
-              “I noticed I asked you for a deliverable on this key project by
-              the end of last week.”
-            </p>
-            <div class="line-testimonial box-size-team-member"></div>
-            <h3 class="name-testimonial box-size-team-member">Anna Kun</h3>
-            <h4 class="prof-testimonial box-size-team-member">Developer</h4>
-          </div>
-        </div>
-      </div> 
-      <!--  -->
-      <div class=" box-size-team-member">
-        <div class="text-wtg box-size-team-member">
-          <div class="head-page-lwt box-size-team-member">Let's Work Together</div>
-          <button class="btn-sayhello button-size box-size-team-member">
-            Say Hello
-          </button>
-        </div>
-        <div class="text-wtg box-size-team-member">
-          <div id="margin-wtg" class = " box-size-team-member">
-            <label>My office:</label><br />
-            <h2 class="margin-contact box-size-team-member">123 Street, New York, USA</h2>
-            <label>Call me:</label><br />
-            <h2 class="margin-contact box-size-team-member">+012 345 6789</h2>
-            <label>Mailme:</label><br />
-            <h2 class="margin-contact box-size-team-member">info@example.com</h2>
-            <label>Follow me:</label><br />
-            <div id="edit" class=" box-size-team-member">
-              <div  class="icon box-size-team-member">
-                <i class="fa-brands fa-twitter box-size-team-member "></i>
-              </div>
-              <div class="icon box-size-team-member">
-                <i class="fa-brands fa-facebook-f box-size-team-member"></i>
-              </div>
-              <div class="icon box-size-team-member">
-                <i class="fa-brands fa-youtube box-size-team-member"></i>
-              </div>
-              <div class="icon box-size-team-member">
-                <i class="fa-brands fa-linkedin-in box-size-team-member"></i>
-              </div>
+      <div class="row">
+        <div class="col-md-5 col-12">
+          <label>My office:</label><br />
+          <h2 class="">123 Street, New York, USA</h2>
+          <hr class="border-2">
+          <label>Call me:</label><br />
+          <h2 class="">+012 345 6789</h2>
+          <hr class="border-2">
+          <label>Mail me:</label><br />
+          <h2 class="">info@example.com</h2>
+          <hr class="border-2">
+          <label>Follow me:</label><br />
+          <div class="row justify-content-between">
+            <div class="col-md-1 col-2 m-1 ">
+              <button class="btn btn-primary" style="background-color: #6245c5;">
+                <i class="fa-brands fa-twitter" ></i>
+              </button>
             </div>
+            <div class="col-md-1 col-2 m-1">
+              <button class="btn btn-primary" style="background-color: #6245c5;">
+                <i class="fa-brands fa-facebook-f box-size-team-member" style="width: 18px"></i>
+              </button>
+            </div>
+            <div class="col-md-1 col-2 m-1">
+              <button class="btn btn-primary" style="background-color: #6245c5;">
+                <i class="fa-brands fa-youtube"></i>
+              </button>
+            </div>
+            <div class="col-md-1 col-2 m-1">
+              <button class="btn btn-primary" style="background-color: #6245c5;">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </button>
+            </div>
+            <div class="col-2 col-lg-7 col-md-5"></div>
           </div>
-          <div style="width: 100%">
-            <span style="color: gray"
-              >Stet lorem dolor diam amet vero eos. No stet est diam amet diam
+
+        </div>
+        <div class="col-md-7 col-12 p-0">
+          <div class="row m-2">
+            <span class="p-0">Stet lorem dolor diam amet vero eos. No stet est diam amet diam
               ipsum. Clita dolor duo clita sit sed dolor eos. Stet lorem dolor
               diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor
-              duo clita sit sed.</span
-            >
-            <span style="color: blueviolet"
-              ><a
-                href="https://www.codecademy.com/"
-                style="text-decoration: none"
-                >Download Now...</a
-              ></span
-            >
-            <div id="input-message ">
-              <input class="inp-style box-size-team-member" type="text" placeholder="Your Name" />
-              <input class="inp-style box-size-team-member" type="text" placeholder="Your Email" />
-            </div>
-            <input class="inp-style box-size-team-member" type="text" placeholder="Subject" /><br />
-            <textarea
-              class="text-area box-size-team-member"
-              rows="4"
-              cols="50"
-              placeholder="Message"
-            ></textarea>
-            <button id="size-btn-sendmess" class="btn-contact button-size box-size-team-member">
-              <div class ="box-size-team-member" style="margin: 1%">Send Message</div>
-            </button>
+              duo clita sit sed.
+              <a class="link-primary">Download Now...</a></span>
           </div>
+          <div class="row m-2 mt-4">
+            <input class="col p-0 me-2 rounded-1 p-3" type="text" placeholder="Your Name" />
+            <input class="col p-0 ms-2 rounded-1 p-3" type="text" placeholder="Your Email" />
+          </div>
+          <div class="row m-2 mt-3 ">
+            <input class="col p-0 rounded-1 p-3" type="text" placeholder="Subject" /><br />
+          </div>
+          <div class="row m-2 mt-3 ">
+            <textarea class="col rounded-1" rows="4" cols="50" placeholder="Message"></textarea>
+          </div>
+          <button class=" col-md-2 btn btn-primary mt-4 ms-2 p-3 " style="background-color: #6245c5;" >
+            Send Message
+          </button>
         </div>
       </div>
     </div>
-    <!--Page 3-->
+  </div>
+  </div>
+</body>
+<!--Page 3-->
+
 </html>
